@@ -6,4 +6,99 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\Custom\index.html" Link="Custom\index.html" />
+    <Content Include="..\Custom\patterns\blue.JSON" Link="Custom\patterns\blue.JSON" />
+    <Content Include="..\Custom\patterns\bullseye.JSON" Link="Custom\patterns\bullseye.JSON" />
+    <Content Include="..\Custom\patterns\checkerboard_b.JSON" Link="Custom\patterns\checkerboard_b.JSON" />
+    <Content Include="..\Custom\patterns\checkerboard_w.JSON" Link="Custom\patterns\checkerboard_w.JSON" />
+    <Content Include="..\Custom\patterns\circularDotArray.JSON" Link="Custom\patterns\circularDotArray.JSON" />
+    <Content Include="..\Custom\patterns\crosshair.JSON" Link="Custom\patterns\crosshair.JSON" />
+    <Content Include="..\Custom\patterns\dot array.JSON" Link="Custom\patterns\dot array.JSON" />
+    <Content Include="..\Custom\patterns\Flying_Spot.JSON" Link="Custom\patterns\Flying_Spot.JSON" />
+    <Content Include="..\Custom\patterns\green.JSON" Link="Custom\patterns\green.JSON" />
+    <Content Include="..\Custom\patterns\grille.JSON" Link="Custom\patterns\grille.JSON" />
+    <Content Include="..\Custom\patterns\line.JSON" Link="Custom\patterns\line.JSON" />
+    <Content Include="..\Custom\patterns\pattern_package_ring_w5_10_20.JSON" Link="Custom\patterns\pattern_package_ring_w5_10_20.JSON" />
+    <Content Include="..\Custom\patterns\red.JSON" Link="Custom\patterns\red.JSON" />
+    <Content Include="..\Custom\patterns\ring_w1.JSON" Link="Custom\patterns\ring_w1.JSON" />
+    <Content Include="..\Custom\patterns\ring_w2.JSON" Link="Custom\patterns\ring_w2.JSON" />
+    <Content Include="..\Custom\patterns\ring_w5.JSON" Link="Custom\patterns\ring_w5.JSON" />
+    <Content Include="..\Custom\patterns\white.JSON" Link="Custom\patterns\white.JSON" />
+    <Content Include="..\Custom\textures\FullScreen_White.png" Link="Custom\textures\FullScreen_White.png" />
+    <Content Include="..\Custom\textures\HalfScreen_White.png" Link="Custom\textures\HalfScreen_White.png" />
+    <Content Include="..\Custom\textures\TG18-BR.2k_12b.png" Link="Custom\textures\TG18-BR.2k_12b.png" />
+    <Content Include="..\Custom\textures\TG18-BR.2k_12b.tiff" Link="Custom\textures\TG18-BR.2k_12b.tiff" />
+    <Content Include="..\Custom\textures\TG18-CH.2k.png" Link="Custom\textures\TG18-CH.2k.png" />
+    <Content Include="..\Custom\textures\TG18-CH.2k.tiff" Link="Custom\textures\TG18-CH.2k.tiff" />
+    <Content Include="..\Custom\textures\TG18-MM1.2k.png" Link="Custom\textures\TG18-MM1.2k.png" />
+    <Content Include="..\Custom\textures\TG18-MM1.2k.tif" Link="Custom\textures\TG18-MM1.2k.tif" />
+    <Content Include="..\Custom\textures\TG18-MM2.2k.png" Link="Custom\textures\TG18-MM2.2k.png" />
+    <Content Include="..\Custom\textures\TG18-MM2.2k.tif" Link="Custom\textures\TG18-MM2.2k.tif" />
+    <Content Include="..\Custom\textures\TG18-PQC.2k_12b.png" Link="Custom\textures\TG18-PQC.2k_12b.png" />
+    <Content Include="..\Custom\textures\TG18-PQC.2k_12b.tiff" Link="Custom\textures\TG18-PQC.2k_12b.tiff" />
+    <Content Include="..\Custom\textures\TG18-QC.2k_12b.png" Link="Custom\textures\TG18-QC.2k_12b.png" />
+    <Content Include="..\Custom\textures\TG18-QC.2k_12b.tiff" Link="Custom\textures\TG18-QC.2k_12b.tiff" />
+    <Content Include="..\Custom\textures\TG270sQC.png" Link="Custom\textures\TG270sQC.png" />
+    <Content Include="..\Custom\textures\transparent.jpg" Link="Custom\textures\transparent.jpg" />
+    <Content Include="..\doc\requirements.txt" Link="doc\requirements.txt" />
+    <Content Include="..\index.html" Link="Main\index.html" />
+    <Content Include="..\style.css" Link="Main\style.css" />
+    <Content Include="..\updatedStyle.css" Link="Main\updatedStyle.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Custom\textures\" />
+    <Folder Include="Custom\patterns\" />
+    <Folder Include="Main\" />
+    <Folder Include="doc\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\cast-to-headset.bat" Link="Main\cast-to-headset.bat" />
+    <None Include="..\Custom\animation.js" Link="Custom\animation.js" />
+    <None Include="..\Custom\changeListeners.js" Link="Custom\changeListeners.js" />
+    <None Include="..\Custom\ControllerComponents.js" Link="Custom\ControllerComponents.js" />
+    <None Include="..\Custom\ControllerInputMapping.js" Link="Custom\ControllerInputMapping.js" />
+    <None Include="..\Custom\drawing.js" Link="Custom\drawing.js" />
+    <None Include="..\Custom\editing.js" Link="Custom\editing.js" />
+    <None Include="..\Custom\entityMovement.js" Link="Custom\entityMovement.js" />
+    <None Include="..\Custom\graphicInterface.js" Link="Custom\graphicInterface.js" />
+    <None Include="..\Custom\load.js" Link="Custom\load.js" />
+    <None Include="..\Custom\movementComponent.js" Link="Custom\movementComponent.js" />
+    <None Include="..\Custom\pastebinInterface.js" Link="Custom\pastebinInterface.js" />
+    <None Include="..\Custom\patterns\blue.js" Link="Custom\patterns\blue.js" />
+    <None Include="..\Custom\patterns\bullseye.js" Link="Custom\patterns\bullseye.js" />
+    <None Include="..\Custom\patterns\checkerboard_b.js" Link="Custom\patterns\checkerboard_b.js" />
+    <None Include="..\Custom\patterns\checkerboard_w.js" Link="Custom\patterns\checkerboard_w.js" />
+    <None Include="..\Custom\patterns\circularDotArray.js" Link="Custom\patterns\circularDotArray.js" />
+    <None Include="..\Custom\patterns\crosshair.js" Link="Custom\patterns\crosshair.js" />
+    <None Include="..\Custom\patterns\dot array.js" Link="Custom\patterns\dot array.js" />
+    <None Include="..\Custom\patterns\flying_spot.js" Link="Custom\patterns\flying_spot.js" />
+    <None Include="..\Custom\patterns\green.js" Link="Custom\patterns\green.js" />
+    <None Include="..\Custom\patterns\grille.js" Link="Custom\patterns\grille.js" />
+    <None Include="..\Custom\patterns\line.js" Link="Custom\patterns\line.js" />
+    <None Include="..\Custom\patterns\red.js" Link="Custom\patterns\red.js" />
+    <None Include="..\Custom\patterns\ring_w1.js" Link="Custom\patterns\ring_w1.js" />
+    <None Include="..\Custom\patterns\ring_w2.js" Link="Custom\patterns\ring_w2.js" />
+    <None Include="..\Custom\patterns\ring_w5.js" Link="Custom\patterns\ring_w5.js" />
+    <None Include="..\Custom\patterns\white.js" Link="Custom\patterns\white.js" />
+    <None Include="..\Custom\README.md" Link="Custom\README.md" />
+    <None Include="..\Custom\saving.js" Link="Custom\saving.js" />
+    <None Include="..\Custom\script.js" Link="Custom\script.js" />
+    <None Include="..\Custom\sharing.js" Link="Custom\sharing.js" />
+    <None Include="..\Custom\uploading.js" Link="Custom\uploading.js" />
+    <None Include="..\Custom\utility.js" Link="Custom\utility.js" />
+    <None Include="..\doc\conf.py" Link="doc\conf.py" />
+    <None Include="..\doc\entities.rst" Link="doc\entities.rst" />
+    <None Include="..\doc\extra.rst" Link="doc\extra.rst" />
+    <None Include="..\doc\index.rst" Link="doc\index.rst" />
+    <None Include="..\doc\introduction.rst" Link="doc\introduction.rst" />
+    <None Include="..\doc\make.bat" Link="doc\make.bat" />
+    <None Include="..\doc\Makefile" Link="doc\Makefile" />
+    <None Include="..\doc\packages.rst" Link="doc\packages.rst" />
+    <None Include="..\doc\patterns.rst" Link="doc\patterns.rst" />
+    <None Include="..\README.md" Link="Main\README.md" />
+  </ItemGroup>
+
 </Project>

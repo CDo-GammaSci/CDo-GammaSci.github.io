@@ -1,0 +1,4076 @@
+{
+	"scenes": {
+		"red": {
+			"sky": {
+				"skyColor": "#ff0000"
+			}
+		},
+		"green": {
+			"sky": {
+				"skyColor": "#00ff00"
+			}
+		},
+		"blue": {
+			"sky": {
+				"skyColor": "#0000ff"
+			}
+		},
+		"white": {
+			"sky": {
+				"skyColor": "#ffffff"
+			}
+		},
+		"grille": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"grille0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numBars": 100,
+				"childGeometry": {
+					"primitive": "plane",
+					"width": 10,
+					"height": 450
+				},
+				"color2": {
+					"val": "#000000"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"crosshair": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 15
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"plane1": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 15
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 90
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 90
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"line": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 1000
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"circular dot array": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"circularDotarray0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"toggleCenterDot": {
+					"val": false
+				},
+				"circles": 10,
+				"dots": 20,
+				"arraySpacing": {
+					"val": 15
+				},
+				"circleSize": 1.5,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"dot array": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"dotarray0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"toggleCenterDot": {
+					"val": false
+				},
+				"rows": 21,
+				"cols": 21,
+				"circleSize": 2,
+				"spacing": {
+					"val": 3
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"checkerboard_w": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"checkerboard0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"rows": 17,
+				"cols": 17,
+				"tileSize": 10,
+				"color2": {
+					"val": "#000000"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"checkerboard_b": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"checkerboard0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"rows": 17,
+				"cols": 17,
+				"tileSize": 10,
+				"color2": {
+					"val": "#ffffff"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#000000",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"ring_w1": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 1,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"ring_w2": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 2,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"ring_w5": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 5,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"Flying Spot": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"circle0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": -80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": -80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle1": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": -80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": -80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle2": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": -80,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": -80,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle3": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": -80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": -80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle4": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": -80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": -80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle5": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle6": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle7": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 80,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 80,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle8": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle9": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle10": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle11": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle12": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 40,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": 40,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle13": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle14": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle15": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 0,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 0,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle16": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 0,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 0,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle17": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle18": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 0,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 0,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle19": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 0,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 0,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle20": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": -40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": -40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle21": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": -40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": -40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle22": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": -40,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": -40,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle23": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": -40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": -40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle24": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": -40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": -40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle26": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle27": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle28": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 0,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 0,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle29": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": -40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": -40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle30": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": -80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": -80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle31": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle32": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle33": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 0,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 0,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle34": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": -40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": -40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle35": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": -80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": -80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle36": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle37": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle38": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 0,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 0,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle39": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": -40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": -40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle40": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": -80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": -80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle41": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle42": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle43": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 0,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 0,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle44": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": -40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": -40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle45": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": -80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": -80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		},
+		"TestPlane": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": true
+				},
+				"angle": {
+					"x": 0,
+					"z": -125
+				},
+				"widthReal": 119.271,
+				"fill": {
+					"val": 119.27083333333334,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 119.271,
+					"height": 125
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -125
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": "#url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABygAAAeACAYAAACVLQDjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEWISURBVHhe7NkxAQAADMOg+TfducgFNrgBAAAAAAAARAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAADAt2fHBAAAAAiD+qfWFrugBkBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAES2A89f2Gzs4TizAAAAAElFTkSuQmCC)"
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -125
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		}
+	},
+	"textures": {
+		"uploadedTextureFormats": {
+			"FullScreen_White.png": {
+				"width": 1832,
+				"height": 1920
+			},
+			"HalfScreen_White.png": {
+				"width": 916,
+				"height": 960
+			}
+		},
+		"textureValues": [
+			{
+				"val": "none",
+				"text": "none"
+			},
+			{
+				"val": "QC",
+				"text": "TG18-QC.2k_12b"
+			},
+			{
+				"val": "CH",
+				"text": "TG18-CH.2k"
+			},
+			{
+				"val": "MM1",
+				"text": "TG18-MM1.2k"
+			},
+			{
+				"val": "MM2",
+				"text": "TG18-MM2.2k"
+			},
+			{
+				"val": "sQC",
+				"text": "TG270sQC"
+			},
+			{
+				"val": "PQC",
+				"text": "TG18-PQC.2k_12b"
+			},
+			{
+				"val": "BR",
+				"text": "TG18-BR.2k_12b"
+			},
+			{
+				"val": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABygAAAeACAYAAACVLQDjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEWISURBVHhe7NkxAQAADMOg+TfducgFNrgBAAAAAAAARAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAADAt2fHBAAAAAiD+qfWFrugBkBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAGQEJQAAAAAAAJARlAAAAAAAAEBGUAIAAAAAAAAZQQkAAAAAAABkBCUAAAAAAACQEZQAAAAAAABARlACAAAAAAAAGUEJAAAAAAAAZAQlAAAAAAAAkBGUAAAAAAAAQEZQAgAAAAAAABlBCQAAAAAAAES2A89f2Gzs4TizAAAAAElFTkSuQmCC)",
+				"text": "FullScreen_White.png"
+			},
+			{
+				"val": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5QAAAPACAYAAABKKTapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABS4SURBVHhe7dcxAQAADMOg+TfdecgNLrgBAABAIJQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAAJEIJAABAIpQAAAAkQgkAAEAilAAAACRCCQAAQCKUAAAABNsDH6Z2GKwHCcQAAAAASUVORK5CYII=)",
+				"text": "HalfScreen_White.png"
+			}
+		]
+	},
+	"date": "4/3/2024, 11:02:43 AM"
+}
