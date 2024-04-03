@@ -1,6 +1,6 @@
-var line = {
+var FS_Texture = {
 	"scenes": {
-		"line": {
+		"FS_Texture": {
 			"sky": {
 				"skyColor": "#000000"
 			},
