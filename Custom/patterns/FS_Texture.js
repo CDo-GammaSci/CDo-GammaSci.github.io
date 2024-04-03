@@ -2,7 +2,7 @@ var FS_Texture = {
 	"scenes": {
 		"FS_Texture": {
 			"sky": {
-				"skyColor": "#000000"
+				"skyColor": "#FF0000"
 			},
 			"plane0": {
 				"advanced": {
