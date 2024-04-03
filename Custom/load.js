@@ -38,6 +38,8 @@ scenes['default']['ring_w5'] = ring_w5['scenes']['ring_w5']
 
 scenes['default']['Flying Spot'] = flying_spot['scenes']['Flying Spot']
 
+scenes['default']['FS_Texture'] = FS_Texture['scenes']['FS_Texture']
+
 console.log('Scenes')
 console.log(scenes)
 /*let arr = Object.keys(scenes)
