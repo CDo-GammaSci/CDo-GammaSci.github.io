@@ -16,6 +16,7 @@
     <Content Include="..\Custom\patterns\crosshair.JSON" Link="Custom\patterns\crosshair.JSON" />
     <Content Include="..\Custom\patterns\dot array.JSON" Link="Custom\patterns\dot array.JSON" />
     <Content Include="..\Custom\patterns\Flying_Spot.JSON" Link="Custom\patterns\Flying_Spot.JSON" />
+    <Content Include="..\Custom\patterns\FS_Texture.JSON" Link="Custom\patterns\FS_Texture.JSON" />
     <Content Include="..\Custom\patterns\green.JSON" Link="Custom\patterns\green.JSON" />
     <Content Include="..\Custom\patterns\grille.JSON" Link="Custom\patterns\grille.JSON" />
     <Content Include="..\Custom\patterns\line.JSON" Link="Custom\patterns\line.JSON" />
@@ -75,6 +76,7 @@
     <None Include="..\Custom\patterns\crosshair.js" Link="Custom\patterns\crosshair.js" />
     <None Include="..\Custom\patterns\dot array.js" Link="Custom\patterns\dot array.js" />
     <None Include="..\Custom\patterns\flying_spot.js" Link="Custom\patterns\flying_spot.js" />
+    <None Include="..\Custom\patterns\FS_Texture.js" Link="Custom\patterns\FS_Texture.js" />
     <None Include="..\Custom\patterns\green.js" Link="Custom\patterns\green.js" />
     <None Include="..\Custom\patterns\grille.js" Link="Custom\patterns\grille.js" />
     <None Include="..\Custom\patterns\line.js" Link="Custom\patterns\line.js" />
