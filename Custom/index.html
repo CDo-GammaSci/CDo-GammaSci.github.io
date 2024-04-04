@@ -144,19 +144,19 @@
                 <img id="PQC" src="textures/TG18-PQC.2k_12b.png">
                 <img id="BR" src="textures/TG18-BR.2k_12b.png">
                 <img id="transparent" src="textures/transparent.jpg">
-                <img id="FS_W"  src="textures/FullScreen_White.png">
-                <img id="HS_W"  src="textures/HalfScreen_White.png">
-                <img id="CB_W"  src="textures/Checkerboard5x5_Center_White.png">
-                <img id="CB_B"  src="textures/Checkerboard5x5_Center_Black.png">
-                <img id="DIST"  src="textures/Distortion_R9_C9White_Monocular_.png">
-                <img id="SE_1"  src="textures/Slant_Edge_MTF.png">
-                <img id="SE_9"  src="textures/Slant_Edge3x3.png">
+                <img id="FS_W" src="textures/FullScreen_White.png">
+                <img id="HS_W" src="textures/HalfScreen_White.png">
+                <img id="CB_W" src="textures/Checkerboard5x5_Center_White.png">
+                <img id="CB_B" src="textures/Checkerboard5x5_Center_Black.png">
+                <img id="DIST" src="textures/Distortion_R9_C9White_Monocular_.png">
+                <img id="SE_1" src="textures/Slant_Edge_MTF.png">
+                <img id="SE_9" src="textures/Slant_Edge3x3.png">
                 <img id="CC_SQ" src="textures/IMG_CONCAT_Monocular_.png">
-                <img id="VB_5"  src="textures/VBARS_LP_5.png">
-                <img id="VB_6"  src="textures/VBARS_LP_6.png">
-                <img id="VB_7"  src="textures/VBARS_LP_7.png">
-                <img id="VB_8"  src="textures/VBARS_LP_8.png">
-                <img id="VB_9"  src="textures/VBARS_LP_9.png">
+                <img id="VB_5" src="textures/VBARS_LP_5.png">
+                <img id="VB_6" src="textures/VBARS_LP_6.png">
+                <img id="VB_7" src="textures/VBARS_LP_7.png">
+                <img id="VB_8" src="textures/VBARS_LP_8.png">
+                <img id="VB_9" src="textures/VBARS_LP_9.png">
                 <img id="VB_10" src="textures/VBARS_LP_10.png">
                 <img id="VB_11" src="textures/VBARS_LP_11.png">
                 <img id="VB_12" src="textures/VBARS_LP_12.png">
@@ -168,11 +168,11 @@
                 <img id="VB_18" src="textures/VBARS_LP_18.png">
                 <img id="VB_19" src="textures/VBARS_LP_19.png">
                 <img id="VB_20" src="textures/VBARS_LP_20.png">
-                <img id="HB_5"  src="textures/HBARS_LP_5.png">
-                <img id="HB_6"  src="textures/HBARS_LP_6.png">
-                <img id="HB_7"  src="textures/HBARS_LP_7.png">
-                <img id="HB_8"  src="textures/HBARS_LP_8.png">
-                <img id="HB_9"  src="textures/HBARS_LP_9.png">
+                <img id="HB_5" src="textures/HBARS_LP_5.png">
+                <img id="HB_6" src="textures/HBARS_LP_6.png">
+                <img id="HB_7" src="textures/HBARS_LP_7.png">
+                <img id="HB_8" src="textures/HBARS_LP_8.png">
+                <img id="HB_9" src="textures/HBARS_LP_9.png">
                 <img id="HB_10" src="textures/HBARS_LP_10.png">
                 <img id="HB_11" src="textures/HBARS_LP_11.png">
                 <img id="HB_12" src="textures/HBARS_LP_12.png">
@@ -224,8 +224,10 @@
                         <div class="patterns" title="Hold the ctrl button to select multiple" style="padding-top: 5px;">
                             <b style="padding-right: 10%;">Pattern List:</b>
                             <div style="padding-right: 5%; padding-bottom: 5%; display: inline-block; width: 20%;">
-                            <button style="text-align:center; width:100%;" class="button add" onclick="addPattern()" title="Add Pattern">
-                                <i class="fa-solid fa-plus"></i></button></div>
+                                <button style="text-align:center; width:100%;" class="button add" onclick="addPattern()" title="Add Pattern">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
                             <button style="text-align:center; width:20%" class="button reset" onclick="removePattern()" title="Delete Patterns"><i class="fa-solid fa-trash"></i></button>
                             <ol id="items-list" class="moveable" selectedIndex="" multi-select="" style="padding-top: 1%; padding-left: 15px; overflow-y: scroll;">
                                 <li id="red">red</li>
@@ -546,7 +548,10 @@
         <script src="./patterns/ring_w2.js"></script>
         <script src="./patterns/ring_w5.js"></script>
         <script src="./patterns/white.js"></script>
-        <script src="./patterns/FS_Texture.js"></script>       
+        <script src="./patterns/FS_Texture.js"></script>
+        <script src="./patterns/black.js"></script>
+
+
         <script src="../lib/controller_profile.js"></script>
 
 

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Include="..\Custom\index.html" Link="Custom\index.html" />
+    <Content Include="..\Custom\patterns\black.JSON" Link="Custom\patterns\black.JSON" />
     <Content Include="..\Custom\patterns\blue.JSON" Link="Custom\patterns\blue.JSON" />
     <Content Include="..\Custom\patterns\bullseye.JSON" Link="Custom\patterns\bullseye.JSON" />
     <Content Include="..\Custom\patterns\checkerboard_b.JSON" Link="Custom\patterns\checkerboard_b.JSON" />
@@ -68,6 +69,7 @@
     <None Include="..\Custom\load.js" Link="Custom\load.js" />
     <None Include="..\Custom\movementComponent.js" Link="Custom\movementComponent.js" />
     <None Include="..\Custom\pastebinInterface.js" Link="Custom\pastebinInterface.js" />
+    <None Include="..\Custom\patterns\black.js" Link="Custom\patterns\black.js" />
     <None Include="..\Custom\patterns\blue.js" Link="Custom\patterns\blue.js" />
     <None Include="..\Custom\patterns\bullseye.js" Link="Custom\patterns\bullseye.js" />
     <None Include="..\Custom\patterns\checkerboard_b.js" Link="Custom\patterns\checkerboard_b.js" />
