@@ -12,7 +12,7 @@ var crosshair = {
 					"x": 0,
 					"z": -250
 				},
-				"widthReal": 1,
+				"widthReal": 0.1,
 				"fill": {
 					"val": 1,
 					"isFull": true
@@ -20,7 +20,7 @@ var crosshair = {
 				"geometry": {
 					"primitive": "plane",
 					"width": 0,
-					"height": 15
+					"height": 1000
 				},
 				"position": {
 					"x": 0,
@@ -37,18 +37,18 @@ var crosshair = {
 					"y": 0,
 					"z": 0
 				},
-				"movement":{
-					"startPoints":[],
-					"endPoints":[],
-					"initialVelocities":[],
-					"accelerations":[],
-					"types":[],
-					"origin":{"x":0,"y":0,"z":-250},
-					"rotationOrigin":{"x":0,"y":0,"z":0},
-					"status":-1,
-					"index":0,
-					"currentVelocity":0,
-					"timeElapsed":0
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": { "x": 0, "y": 0, "z": -250 },
+					"rotationOrigin": { "x": 0, "y": 0, "z": 0 },
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
 				}
 			},
 			"plane1": {
@@ -59,7 +59,7 @@ var crosshair = {
 					"x": 0,
 					"z": -250
 				},
-				"widthReal": 1,
+				"widthReal": 0.1,
 				"fill": {
 					"val": 1,
 					"isFull": true
@@ -67,7 +67,7 @@ var crosshair = {
 				"geometry": {
 					"primitive": "plane",
 					"width": 0,
-					"height": 15
+					"height": 1000
 				},
 				"position": {
 					"x": 0,
@@ -84,18 +84,18 @@ var crosshair = {
 					"y": 0,
 					"z": 90
 				},
-				"movement":{
-					"startPoints":[],
-					"endPoints":[],
-					"initialVelocities":[],
-					"accelerations":[],
-					"types":[],
-					"origin":{"x":0,"y":0,"z":-250},
-					"rotationOrigin":{"x":0,"y":0,"z":90},
-					"status":-1,
-					"index":0,
-					"currentVelocity":0,
-					"timeElapsed":0
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": { "x": 0, "y": 0, "z": -250 },
+					"rotationOrigin": { "x": 0, "y": 0, "z": 90 },
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
 				}
 			}
 		}
