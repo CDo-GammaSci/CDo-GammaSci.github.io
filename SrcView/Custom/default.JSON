@@ -1,0 +1,4283 @@
+{
+	"scenes": {
+		"FS_Texture": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": true
+				},
+				"angle": {
+					"x": 0,
+					"z": -125
+				},
+				"widthReal": 119.271,
+				"fill": {
+					"val": 119.27083333333334,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 119.271,
+					"height": 125
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -125
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -125
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		},
+		"red": {
+			"sky": {
+				"skyColor": "#ff0000"
+			}
+		},
+		"green": {
+			"sky": {
+				"skyColor": "#00ff00"
+			}
+		},
+		"blue": {
+			"sky": {
+				"skyColor": "#0000ff"
+			}
+		},
+		"black": {
+			"sky": {
+				"skyColor": "#0000ff"
+			}
+		},
+		"grille": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"grille0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numBars": 100,
+				"childGeometry": {
+					"primitive": "plane",
+					"width": 10,
+					"height": 450
+				},
+				"color2": {
+					"val": "#000000"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"crosshair": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 0.1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 1000
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"plane1": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 0.1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 1000
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 90
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 90
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"line": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"widthReal": 1,
+				"fill": {
+					"val": 1,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 0,
+					"height": 1000
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"circular dot array": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"circularDotarray0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"toggleCenterDot": {
+					"val": false
+				},
+				"circles": 10,
+				"dots": 20,
+				"arraySpacing": {
+					"val": 15
+				},
+				"circleSize": 1.5,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"dot array": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"dotarray0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"toggleCenterDot": {
+					"val": false
+				},
+				"rows": 21,
+				"cols": 21,
+				"circleSize": 2,
+				"spacing": {
+					"val": 3
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"checkerboard_w": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -125
+				},
+				"widthReal": 31.25,
+				"fill": {
+					"val": 119.27083333333334,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 119.27083333333334,
+					"height": 125
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -125
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": "#CB_W"
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -125
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		},
+		"checkerboard_b": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -125
+				},
+				"widthReal": 119.27083333333334,
+				"fill": {
+					"val": 119.27083333333334,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 119.27083333333334,
+					"height": 125
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -125
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": "#CB_B"
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -125
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		},
+		"ring_w1": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 1,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"ring_w2": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 2,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"ring_w5": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"bullseye0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"numRings": 30,
+				"ringPitch": 5,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			}
+		},
+		"Flying Spot": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"circle0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": -80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": -80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle1": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": -80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": -80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle2": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": -80,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": -80,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle3": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": -80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": -80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle4": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": -80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": -80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle5": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle6": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle7": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 80,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 80,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle8": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 80,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 80,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle9": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 80,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 80,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle10": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle11": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle12": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 40,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": 40,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle13": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle14": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle15": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": 0,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": 0,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle16": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": 0,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": 0,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle17": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle18": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": 0,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": 0,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle19": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": 0,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": 0,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle20": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -85.50503583141717,
+					"y": -40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -20,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -20,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -85.50503583141717,
+						"y": -40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle21": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -43.412044416732584,
+					"y": -40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -10,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -10,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -43.412044416732584,
+						"y": -40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle22": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 0,
+					"y": -40,
+					"z": -250
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 0,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 0,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 0,
+						"y": -40,
+						"z": -250
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle23": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -10,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 43.412044416732584,
+					"y": -40,
+					"z": -246.201938253052
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -10,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 10,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 10,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 43.412044416732584,
+						"y": -40,
+						"z": -246.201938253052
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -10,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle24": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -20,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 85.50503583141717,
+					"y": -40,
+					"z": -234.9231551964771
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -20,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 20,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 20,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 85.50503583141717,
+						"y": -40,
+						"z": -234.9231551964771
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -20,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle26": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle27": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle28": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": 0,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": 0,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle29": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": -40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -15,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -15,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": -40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle30": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -64.70476127563019,
+					"y": -80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -64.70476127563019,
+						"y": -80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle31": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle32": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle33": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": 0,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": 0,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle34": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": -40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": -5,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -5,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": -40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle35": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": -21.78893568691454,
+					"y": -80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": -21.78893568691454,
+						"y": -80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle36": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle37": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle38": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": 0,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": 0,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle39": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": -40,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 5,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 5,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": -40,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle40": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -5,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 21.78893568691454,
+					"y": -80,
+					"z": -249.04867452293638
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -5,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 21.78893568691454,
+						"y": -80,
+						"z": -249.04867452293638
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -5,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle41": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			},
+			"circle42": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 40,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": 40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						10,
+						10
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle43": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": 0,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": 0,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": 0,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						20,
+						20
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": 0,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle44": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": -40,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [
+						{
+							"theta": 15,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": -65,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"endPoints": [
+						{
+							"theta": 65,
+							"y": -40,
+							"r": -250
+						},
+						{
+							"theta": 15,
+							"y": -40,
+							"r": -250
+						}
+					],
+					"initialVelocities": [
+						40,
+						40
+					],
+					"accelerations": [
+						0,
+						0
+					],
+					"types": [
+						"Start",
+						"Start"
+					],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": -40,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": 0
+				}
+			},
+			"circle45": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": -15,
+					"z": -250
+				},
+				"geometry": {
+					"primitive": "ring",
+					"radiusOuter": 2,
+					"radiusInner": 0,
+					"segmentsTheta": 100
+				},
+				"fill": {
+					"val": 2,
+					"isFull": true
+				},
+				"position": {
+					"x": 64.70476127563019,
+					"y": -80,
+					"z": -241.4814565722671
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": ""
+				},
+				"rotation": {
+					"x": 0,
+					"y": -15,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 64.70476127563019,
+						"y": -80,
+						"z": -241.4814565722671
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": -15,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		},
+		"MTF Center": {
+			"sky": {
+				"skyColor": "#000000"
+			},
+			"plane0": {
+				"advanced": {
+					"val": false
+				},
+				"angle": {
+					"x": 0,
+					"z": -125
+				},
+				"widthReal": 119.27083333333334,
+				"fill": {
+					"val": 119.27083333333334,
+					"isFull": true
+				},
+				"geometry": {
+					"primitive": "plane",
+					"width": 119.27083333333334,
+					"height": 125
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -125
+				},
+				"material": {
+					"shader": "flat",
+					"color": "#ffffff",
+					"src": "#SE_1"
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"movement": {
+					"startPoints": [],
+					"endPoints": [],
+					"initialVelocities": [],
+					"accelerations": [],
+					"types": [],
+					"origin": {
+						"x": 0,
+						"y": 0,
+						"z": -125
+					},
+					"rotationOrigin": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"status": -1,
+					"index": 0,
+					"currentVelocity": 0,
+					"timeElapsed": -1
+				}
+			}
+		}
+	},
+	"textures": {
+		"uploadedTextureFormats": {},
+		"textureValues": [
+			{
+				"val": "none",
+				"text": "none"
+			},
+			{
+				"val": "QC",
+				"text": "TG18-QC.2k_12b"
+			},
+			{
+				"val": "CH",
+				"text": "TG18-CH.2k"
+			},
+			{
+				"val": "MM1",
+				"text": "TG18-MM1.2k"
+			},
+			{
+				"val": "MM2",
+				"text": "TG18-MM2.2k"
+			},
+			{
+				"val": "sQC",
+				"text": "TG270sQC"
+			},
+			{
+				"val": "PQC",
+				"text": "TG18-PQC.2k_12b"
+			},
+			{
+				"val": "FS_W",
+				"text": "FullScreen_White"
+			},
+			{
+				"val": "HS_W",
+				"text": "HalfScreen_White"
+			},
+			{
+				"val": "CB_W",
+				"text": "CheckerBoard5x5_White"
+			},
+			{
+				"val": "CB_B",
+				"text": "CheckerBoard5x5_Black"
+			},
+			{
+				"val": "DIST",
+				"text": "Distortionx9"
+			},
+			{
+				"val": "SE_1",
+				"text": "SlantEdgex1"
+			},
+			{
+				"val": "SE_9",
+				"text": "SlantEdgex9"
+			},
+			{
+				"val": "CC_SQ",
+				"text": "Image_Concat"
+			},
+			{
+				"val": "VB_5",
+				"text": "VBARS_LP_5"
+			},
+			{
+				"val": "VB_6",
+				"text": "VBARS_LP_6"
+			},
+			{
+				"val": "VB_7",
+				"text": "VBARS_LP_7"
+			},
+			{
+				"val": "VB_8",
+				"text": "VBARS_LP_8"
+			},
+			{
+				"val": "VB_9",
+				"text": "VBARS_LP_9"
+			},
+			{
+				"val": "VB_10",
+				"text": "VBARS_LP_10"
+			},
+			{
+				"val": "VB_11",
+				"text": "VBARS_LP_11"
+			},
+			{
+				"val": "VB_12",
+				"text": "VBARS_LP_12"
+			},
+			{
+				"val": "VB_13",
+				"text": "VBARS_LP_13"
+			},
+			{
+				"val": "VB_14",
+				"text": "VBARS_LP_14"
+			},
+			{
+				"val": "VB_15",
+				"text": "VBARS_LP_15"
+			},
+			{
+				"val": "VB_16",
+				"text": "VBARS_LP_16"
+			},
+			{
+				"val": "VB_17",
+				"text": "VBARS_LP_17"
+			},
+			{
+				"val": "VB_18",
+				"text": "VBARS_LP_18"
+			},
+			{
+				"val": "VB_19",
+				"text": "VBARS_LP_19"
+			},
+			{
+				"val": "VB_20",
+				"text": "VBARS_LP_20"
+			},
+			{
+				"val": "HB_5",
+				"text": "HBARS_LP_5"
+			},
+			{
+				"val": "HB_6",
+				"text": "HBARS_LP_6"
+			},
+			{
+				"val": "HB_7",
+				"text": "HBARS_LP_7"
+			},
+			{
+				"val": "HB_8",
+				"text": "HBARS_LP_8"
+			},
+			{
+				"val": "HB_9",
+				"text": "HBARS_LP_9"
+			},
+			{
+				"val": "HB_10",
+				"text": "HBARS_LP_10"
+			},
+			{
+				"val": "HB_11",
+				"text": "HBARS_LP_11"
+			},
+			{
+				"val": "HB_12",
+				"text": "HBARS_LP_12"
+			},
+			{
+				"val": "HB_13",
+				"text": "HBARS_LP_13"
+			},
+			{
+				"val": "HB_14",
+				"text": "HBARS_LP_14"
+			},
+			{
+				"val": "HB_15",
+				"text": "HBARS_LP_15"
+			},
+			{
+				"val": "HB_16",
+				"text": "HBARS_LP_16"
+			},
+			{
+				"val": "HB_17",
+				"text": "HBARS_LP_17"
+			},
+			{
+				"val": "HB_18",
+				"text": "HBARS_LP_18"
+			},
+			{
+				"val": "HB_19",
+				"text": "HBARS_LP_19"
+			},
+			{
+				"val": "HB_20",
+				"text": "HBARS_LP_20"
+			}
+		]
+	},
+	"date": "4/4/2024, 4:28:24 PM"
+}
