@@ -30,7 +30,7 @@ var MTF_3x3 = {
                 "material": {
                     "shader": "flat",
                     "color": "#ffffff",
-                    "src": "#SE_9" // Changed to SE_9 to represent a hypothetical texture for MTF 3x3
+                    "src": "#SE_9"
                 },
                 "rotation": {
                     "x": 0,
