@@ -4,12 +4,9 @@ scenes['default']['red'] = red['scenes']['default']
 scenes['default']['green'] = green['scenes']['default']
 scenes['default']['blue'] = blue['scenes']['default']
 scenes['default']['black'] = black['scenes']['default']
-scenes['default']['grille'] = grille['scenes']['default']
-scenes['default']['line'] = line['scenes']['line']
 scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
 scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
-scenes['default']['dot array'] = dot_array['scenes']['dot array']
-scenes['default']['circular dot array'] = circular_dot_array['scenes']['circularDotArray']
+scenes['default']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
 scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
 
 /*import bullseye from './patterns/bullseye.JSON' assert { type: "json" };
@@ -20,10 +17,6 @@ scenes['default']['ring_w5'] = ring_package['scenes']['ring_w5']
 scenes['default']['ring_w10'] = ring_package['scenes']['ring_w10']
 scenes['default']['ring_w20'] = ring_package['scenes']['ring_w20']*/
 
-scenes['default']['ring_w1'] = ring_w1['scenes']['ring_w1']
-scenes['default']['ring_w2'] = ring_w2['scenes']['ring_w2']
-scenes['default']['ring_w5'] = ring_w5['scenes']['ring_w5']
-scenes['default']['Flying Spot'] = flying_spot['scenes']['Flying Spot']
 
 
 
@@ -38,12 +31,9 @@ scenes['Quest2']['line'] = line['scenes']['line']
 scenes['Quest2']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
 scenes['Quest2']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
 scenes['Quest2']['dot array'] = dot_array['scenes']['dot array']
-scenes['Quest2']['circular dot array'] = circular_dot_array['scenes']['circularDotArray']
+scenes['Quest2']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
 scenes['Quest2']['crosshair'] = crosshair['scenes']['crosshair']
-scenes['Quest2']['ring_w1'] = ring_w1['scenes']['ring_w1']
-scenes['Quest2']['ring_w2'] = ring_w2['scenes']['ring_w2']
-scenes['Quest2']['ring_w5'] = ring_w5['scenes']['ring_w5']
-scenes['Quest2']['Flying Spot'] = flying_spot['scenes']['Flying Spot']
+
 
 
 console.log('Scenes')
