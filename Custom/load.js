@@ -1,13 +1,15 @@
 /* Loads in prebuilt scenes and adds them to scenes json */
+scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
 scenes['default']['FS_Texture'] = FS_Texture['scenes']['FS_Texture']
 scenes['default']['red'] = red['scenes']['default']
 scenes['default']['green'] = green['scenes']['default']
 scenes['default']['blue'] = blue['scenes']['default']
 scenes['default']['black'] = black['scenes']['default']
+scenes['default']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion 9x9']
 scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
 scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
 scenes['default']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
-scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
+scenes['default']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3']
 
 /*import bullseye from './patterns/bullseye.JSON' assert { type: "json" };
 scenes['default']['bullseye'] = bullseye['scenes']['bullseye']*/
@@ -21,18 +23,18 @@ scenes['default']['ring_w20'] = ring_package['scenes']['ring_w20']*/
 
 
 // Meta quest specific
+scenes['Quest2']['crosshair'] = crosshair['scenes']['crosshair']
 scenes['Quest2']['FS_Texture'] = FS_Texture['scenes']['FS_Texture']
 scenes['Quest2']['red'] = red['scenes']['default']
 scenes['Quest2']['green'] = green['scenes']['default']
 scenes['Quest2']['blue'] = blue['scenes']['default']
 scenes['Quest2']['grille'] = grille['scenes']['default']
 scenes['Quest2']['black'] = black['scenes']['default']
-scenes['Quest2']['line'] = line['scenes']['line']
+scenes['Quest2']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion 9x9']
 scenes['Quest2']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
 scenes['Quest2']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
-scenes['Quest2']['dot array'] = dot_array['scenes']['dot array']
 scenes['Quest2']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
-scenes['Quest2']['crosshair'] = crosshair['scenes']['crosshair']
+scenes['Quest2']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3']
 
 
 
