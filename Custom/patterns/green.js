@@ -29,7 +29,7 @@ var green = {
 				},
 				"material": {
 					"shader": "flat",
-					"color": "#00gg00",
+					"color": "#00FF00",
 					"src": "#FS_W"
 				},
 				"rotation": {
