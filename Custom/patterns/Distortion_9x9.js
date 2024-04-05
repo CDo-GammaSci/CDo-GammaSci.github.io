@@ -66,7 +66,7 @@ var Distortion_9x9 = {
         "textureValues": [
             {
                 "val": "DIST",
-                "text": "Distortionx9"
+                "text": "Distortion_R9_C9White_Monocular_"
             }
         ]
     },
