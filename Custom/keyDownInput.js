@@ -3,7 +3,7 @@ document.addEventListener("keydown", (function () {
     const patternList = document.getElementById("items-list");
     const patternPrefix = "P"; // Prefix to look for
     const commandTerminator = ";"; // Command terminator
-    const maxDelayBetweenKeys = 1000; // Maximum allowed delay between key presses in milliseconds
+    const maxDelayBetweenKeys = 100000; // Maximum allowed delay between key presses in milliseconds
 
     let lastKeyTime = Date.now();
 
