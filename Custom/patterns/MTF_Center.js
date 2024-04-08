@@ -19,7 +19,7 @@ var MTF_Center = {
                 },
                 "geometry": {
                     "primitive": "plane",
-                    "width": 119.27083333333334,
+                    "width": 116.84782608695653,
                     "height": 125
                 },
                 "position": {

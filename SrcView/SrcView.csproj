@@ -68,6 +68,7 @@
     <None Include="..\Custom\editing.js" Link="Custom\editing.js" />
     <None Include="..\Custom\entityMovement.js" Link="Custom\entityMovement.js" />
     <None Include="..\Custom\graphicInterface.js" Link="Custom\graphicInterface.js" />
+    <None Include="..\Custom\keyDownInput.js" Link="Custom\keyDownInput.js" />
     <None Include="..\Custom\load.js" Link="Custom\load.js" />
     <None Include="..\Custom\movementComponent.js" Link="Custom\movementComponent.js" />
     <None Include="..\Custom\pastebinInterface.js" Link="Custom\pastebinInterface.js" />
