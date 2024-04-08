@@ -3,10 +3,10 @@ import crosshair from './patterns/crosshair.JSON' assert { type: "json" };
 scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
 
 import FS_Texture from './patterns/FS_Texture.JSON' assert { type: "json" };
-scenes['default']['FS_Texture'] = FS_Texture['scenes']['FS_Texture'];
+scenes['default']['FS White'] = FS_Texture['scenes']['FS_Texture'];
 
 import red from './patterns/red.JSON' assert { type: "json" };
-scenes['default']['red'] = red['scenes']['default'];
+scenes['default']['FS Red'] = red['scenes']['default'];
 
 import green from './patterns/green.JSON' assert { type: "json" };
 scenes['default']['green'] = green['scenes']['default'];
