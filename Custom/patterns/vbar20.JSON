@@ -1,6 +1,6 @@
 {
     "scenes": {
-        "MTF 3x3": {
+        "default": {
             "sky": {
                 "skyColor": "#000000"
             },
