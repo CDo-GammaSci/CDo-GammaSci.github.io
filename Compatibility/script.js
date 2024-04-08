@@ -76,14 +76,12 @@ scene.addEventListener('enter-vr',function(){
             return prev}}, 0);
     console.log(result)*/
     console.log('Entering VR');
-    
     controlsInterval = setInterval(findControls,10);
 });
 
 
 /* When VR is exited */
 scene.addEventListener('exit-vr',function(){
-    console.log("xrSession: "+JSON.stringify(scene.xrSession));
     jsonOut = {device: {detected: isDeviceCon, scheme: scheme, controllers:{ leftController: {detected: isLeft, model: leftModel, functionality: {stickAxis: isLeftStick, grip: gripLeftPressed, trigger: triggerLeftPressed, a: aPressed, b: bPressed, menu: menuLeftPressed, stickPress: thumbLeftPressed}}, rightController: {detected: isRight, model: rightModel, functionality: {stickAxis: isRightStick, grip: gripRightPressed, trigger: triggerRightPressed, x: xPressed, y: yPressed, menu: menuRightPressed, stickPress: thumbRightPressed}}}}}
     console.log(jsonOut)
     console.log('Exiting VR');
@@ -95,7 +93,7 @@ var leftModel, rightModel
 function findControls(){
     isRight = !(conRight.getAttribute("position").x == 0 && conRight.getAttribute("position").y == 0 && conRight.getAttribute("position").z == 0);
     isLeft = !(conLeft.getAttribute("position").x == 0 && conLeft.getAttribute("position").y == 0 && conLeft.getAttribute("position").z == 0);
-    queryPrefix = "gen-"
+    queryPrefix = ""
     if(isRight){
         right.setAttribute("value", "Right Controller Connected: Yes"); right.setAttribute("color","green")
     }
@@ -104,6 +102,7 @@ function findControls(){
     }
     if(isRight){
         if(conRight.components['tracked-controls'].attrValue.hasOwnProperty("id") && conRight.components['tracked-controls'].attrValue.id != ""){
+            console.log("test")
             scheme = conRight.components['tracked-controls-webxr'].attrValue.id
             controlScheme.setAttribute("value", "Detected Control Scheme: " + scheme)
             if(scheme.includes("touch")){
@@ -129,12 +128,11 @@ function findControls(){
             } else {
                 queryPrefix = "gen-"
             }
-            console.log("made it to 1")
-            console.log(queryPrefix)
             document.querySelector("#"+queryPrefix+"interface").setAttribute("visible", true)
             executeQueries(queryPrefix)
             clearInterval(controlsInterval)
         } else if(conRight.components['tracked-controls'].attrValue.hasOwnProperty("idPrefix") && conRight.components['tracked-controls'].attrValue.idPrefix != ""){
+            console.log("test")
             scheme = conRight.getAttribute("tracked-controls").idPrefix;
             controlScheme.setAttribute("value", "Detected Control Scheme: " + scheme)
             if(scheme.includes("touch")){
@@ -159,15 +157,6 @@ function findControls(){
                 queryPrefix = "win-"
             } else {
                 queryPrefix = "gen-"
-            }
-            console.log("made it to 2")
-
-            console.log(conRight.components['tracked-controls'].idPrefix)
-
-            console.log(conRight.components['tracked-controls'].attrValue)
-
-            for([k,v] in Object.entries(conRight.components['tracked-controls'].attrValue)){
-                console.log(`Key: ${k} and Value: ${conRight.components['tracked-controls'].attrValue[k]}`)
             }
             document.querySelector("#"+queryPrefix+"interface").setAttribute("visible", true)
             executeQueries(queryPrefix)
@@ -194,6 +183,7 @@ function findControls(){
         
     } else if(isLeft) {
         if(conLeft.components['tracked-controls'].attrValue.hasOwnProperty("id") && conLeft.components['tracked-controls'].attrValue.id != ""){
+            console.log("test3")
             scheme = conLeft.components['tracked-controls-webxr'].attrValue.id
             controlScheme.setAttribute("value", "Detected Control Scheme: " + scheme)
             if(scheme.includes("touch")){
@@ -219,12 +209,11 @@ function findControls(){
             } else {
                 queryPrefix = "gen-"
             }
-            console.log("made it to 3")
-            console.log(queryPrefix)
             document.querySelector("#"+queryPrefix+"interface").setAttribute("visible", true)
             executeQueries(queryPrefix)
             clearInterval(controlsInterval)
         } else if(conLeft.components['tracked-controls'].attrValue.hasOwnProperty("idPrefix") && conLeft.components['tracked-controls'].attrValue.idPrefix != ""){
+            console.log("test2")
             scheme = conLeft.getAttribute("tracked-controls").idPrefix;
             controlScheme.setAttribute("value", "Detected Control Scheme: " + scheme)
             if(scheme.includes("touch")){
@@ -250,8 +239,6 @@ function findControls(){
             } else {
                 queryPrefix = "gen-"
             }
-            console.log("made it to 4")
-            console.log(queryPrefix)
             document.querySelector("#"+queryPrefix+"interface").setAttribute("visible", true)
             executeQueries(queryPrefix)
             clearInterval(controlsInterval)
@@ -333,29 +320,4 @@ function exportJSON(){
     var blob = new Blob([JSON.stringify(jsonOut, null, '\t')],
     { type: "text/plain;charset=utf-8" });
     saveAs(blob, devName.value+"Compatibility.JSON");
-}
-
-var baseLogFunction = console.log;
-console.log = function(){
-    baseLogFunction.apply(console, arguments);
-
-    var args = Array.prototype.slice.call(arguments);
-    for(var i=0;i<args.length;i++){
-        var node = createLogNode(args[i]);
-        document.querySelector("#debug").appendChild(node);
-    }
-
-}
-
-function createLogNode(message){
-    var node = document.createElement("div");
-    node.style.overflowY = 'auto';
-    var textNode = document.createTextNode(message);
-    node.appendChild(textNode);
-    return node;
-}
-
-window.onerror = function(message, url, linenumber) {
-    console.log("JavaScript error: " + message + " on line " +
-        linenumber + " for " + url);
 }

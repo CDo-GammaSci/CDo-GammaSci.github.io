@@ -262,28 +262,6 @@ init: function () {
     el.addEventListener('trackpadtouchend', function (evt) {
         rightTrackInd.setAttribute("visible", false)
     });
-    el.addEventListener('buttondown', function (evt) {
-        console.log('Evt id: '+evt.detail.id);
-        console.log("xrSession: "+JSON.stringify(scene.xrSession));
-    })
-    el.addEventListener('gamepadbuttondown:0', function () {
-        console.log('button 0 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:1', function () {
-        console.log('button 1 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:2', function () {
-        console.log('button 2 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:3', function () {
-        console.log('button 3 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:4', function () {
-        console.log('button 4 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:5', function () {
-        console.log('button 5 pressed!');
-      })
 }
 });
 
@@ -382,27 +360,5 @@ init: function () {
     el.addEventListener('trackpadtouchend', function (evt) {
         leftTrackInd.setAttribute("visible", false)
     });
-    el.addEventListener('buttondown', function (evt) {
-        console.log('Evt id: '+evt.detail.id);
-        console.log("xrSession: "+JSON.stringify(scene.xrSession));
-    })
-    el.addEventListener('gamepadbuttondown:0', function () {
-        console.log('button 0 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:1', function () {
-        console.log('button 1 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:2', function () {
-        console.log('button 2 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:3', function () {
-        console.log('button 3 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:4', function () {
-        console.log('button 4 pressed!');
-      })
-    el.addEventListener('gamepadbuttondown:5', function () {
-        console.log('button 5 pressed!');
-      })
 }
 });
