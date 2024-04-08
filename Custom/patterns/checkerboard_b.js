@@ -10,7 +10,7 @@ var checkerboard_b = {
                 },
                 "angle": {
                     "x": 0,
-                    "z": -110
+                    "z": -100
                 },
                 "widthReal": 119.27083333333334,
                 "fill": {
@@ -25,7 +25,7 @@ var checkerboard_b = {
                 "position": {
                     "x": 0,
                     "y": 0,
-                    "z": -110
+                    "z": -100
                 },
                 "material": {
                     "shader": "flat",
@@ -46,7 +46,7 @@ var checkerboard_b = {
                     "origin": {
                         "x": 0,
                         "y": 0,
-                        "z": -110
+                        "z": -100
                     },
                     "rotationOrigin": {
                         "x": 0,

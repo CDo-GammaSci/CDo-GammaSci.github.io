@@ -10,7 +10,7 @@ var Distortion_9x9 = {
 				},
 				"angle": {
 					"x": 0,
-					"z": -110
+					"z": -100
 				},
 				"widthReal": 31.25,
 				"fill": {
@@ -25,7 +25,7 @@ var Distortion_9x9 = {
 				"position": {
 					"x": 0,
 					"y": 0,
-					"z": -110
+					"z": -100
 				},
 				"material": {
 					"shader": "flat",
@@ -46,7 +46,7 @@ var Distortion_9x9 = {
 					"origin": {
 						"x": 0,
 						"y": 0,
-						"z": -110
+						"z": -100
 					},
 					"rotationOrigin": {
 						"x": 0,

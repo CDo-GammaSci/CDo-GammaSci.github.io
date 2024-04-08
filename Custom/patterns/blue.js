@@ -10,7 +10,7 @@ var blue = {
 				},
 				"angle": {
 					"x": 0,
-					"z": -110
+					"z": -100
 				},
 				"widthReal": 116.84782608695653,
 				"fill": {
@@ -25,7 +25,7 @@ var blue = {
 				"position": {
 					"x": 0,
 					"y": 0,
-					"z": -110
+					"z": -100
 				},
 				"material": {
 					"shader": "flat",
@@ -46,7 +46,7 @@ var blue = {
 					"origin": {
 						"x": 0,
 						"y": 0,
-						"z": -110
+						"z": -100
 					},
 					"rotationOrigin": {
 						"x": 0,
