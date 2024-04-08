@@ -64,10 +64,10 @@
     "textures": {
         "uploadedTextureFormats": {},
         "textureValues": [
-            {
-                "val": "SE_9",
-                "text": "SlantEdgex9"
-            }
+          {
+            "val": "SE_9",
+            "text": "slantedge9x9"
+          }
         ]
     },
     "date": "4/4/2024, 4:28:24 PM"
