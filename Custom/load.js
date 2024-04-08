@@ -33,7 +33,7 @@ import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
 scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
 
 import vbar_20 from './patterns/vbar20.JSON' assert { type: "json" };
-scenes['default']['VBar 20'] = MTF_3x3['scenes']['default'];
+scenes['default']['VBar 20'] = vbar_20['scenes']['default'];
 
 
 
