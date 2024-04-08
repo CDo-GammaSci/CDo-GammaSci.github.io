@@ -9,16 +9,16 @@ import red from './patterns/red.JSON' assert { type: "json" };
 scenes['default']['FS Red'] = red['scenes']['default'];
 
 import green from './patterns/green.JSON' assert { type: "json" };
-scenes['default']['green'] = green['scenes']['default'];
+scenes['default']['FS Green'] = green['scenes']['default'];
 
 import blue from './patterns/blue.JSON' assert { type: "json" };
-scenes['default']['blue'] = blue['scenes']['default'];
+scenes['default']['FS Blue'] = blue['scenes']['default'];
 
 import black from './patterns/black.JSON' assert { type: "json" };
-scenes['default']['black'] = black['scenes']['default'];
+scenes['default']['FS Black'] = black['scenes']['default'];
 
 import Distortion_9x9 from './patterns/Distortion_9x9.JSON' assert { type: "json" };
-scenes['default']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion_9x9'];
+scenes['default']['Distortion 9x9'] = Distortion_9x9['scenes']['Distortion_9x9'];
 
 import checkerboard_w from './patterns/checkerboard_w.JSON' assert { type: "json" };
 scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w'];
@@ -27,10 +27,10 @@ import checkerboard_b from './patterns/checkerboard_b.JSON' assert { type: "json
 scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b'];
 
 import MTF_Center from './patterns/MTF_Center.JSON' assert { type: "json" };
-scenes['default']['MTF_Center'] = MTF_Center['scenes']['MTF Center'];
+scenes['default']['MTF Center'] = MTF_Center['scenes']['MTF Center'];
 
 import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
-scenes['default']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3'];
+scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
 
 
 
