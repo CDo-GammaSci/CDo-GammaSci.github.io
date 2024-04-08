@@ -2,7 +2,7 @@ document.addEventListener("keydown", (function () {
     let inputBuffer = ""; // Accumulates key presses
     const patternList = document.getElementById("items-list");
     const patternPrefix = "P"; // Prefix to look for
-    const commandTerminator = ":"; // Command terminator
+    const commandTerminator = "E"; // Command terminator
     const maxDelayBetweenKeys = 100000; // Maximum allowed delay between key presses in milliseconds
 
     let lastKeyTime = Date.now();
@@ -17,8 +17,8 @@ document.addEventListener("keydown", (function () {
         // Add valid characters (P, digits, and ;) to inputBuffer
         if (event.key.toUpperCase() === patternPrefix || !isNaN(event.key) || event.key === commandTerminator) {
             inputBuffer += event.key.toUpperCase();
-            // Check if the buffer matches the command pattern, e.g., "P38:"
-            const match = inputBuffer.match(/^P(\d+):$/);
+            // Check if the buffer matches the command pattern, e.g., "P38N"
+            const match = inputBuffer.match(/^P(\d+)E$/);
             if (match) {
                 const index = parseInt(match[1], 10) - 1; // Convert to 0-based index
                 if (index >= 0 && index < patternList.children.length) {
