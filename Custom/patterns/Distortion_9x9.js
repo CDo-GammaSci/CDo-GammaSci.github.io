@@ -10,11 +10,11 @@ var Distortion_9x9 = {
 				},
 				"angle": {
 					"x": 0,
-					"z": -125
+					"z": -110
 				},
 				"widthReal": 31.25,
 				"fill": {
-					"val": 119.27083333333334,
+					"val": 116.84782608695653,
 					"isFull": true
 				},
 				"geometry": {
@@ -25,7 +25,7 @@ var Distortion_9x9 = {
 				"position": {
 					"x": 0,
 					"y": 0,
-					"z": -125
+					"z": -110
 				},
 				"material": {
 					"shader": "flat",
@@ -46,7 +46,7 @@ var Distortion_9x9 = {
 					"origin": {
 						"x": 0,
 						"y": 0,
-						"z": -125
+						"z": -110
 					},
 					"rotationOrigin": {
 						"x": 0,
