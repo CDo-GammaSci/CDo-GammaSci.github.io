@@ -30,7 +30,7 @@
                 "material": {
                     "shader": "flat",
                     "color": "#ffffff",
-                    "src": "#SE_9"
+                    "src": "#SE9"
                 },
                 "rotation": {
                     "x": 0,
@@ -65,7 +65,7 @@
         "uploadedTextureFormats": {},
         "textureValues": [
           {
-            "val": "SE_9",
+            "val": "SE9",
             "text": "slantedge9x9"
           }
         ]
