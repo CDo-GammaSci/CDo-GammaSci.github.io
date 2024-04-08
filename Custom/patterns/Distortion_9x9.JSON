@@ -27,11 +27,11 @@
                     "y": 0,
                     "z": -125
                 },
-                "material": {
-                    "shader": "flat",
-                    "color": "#ffffff",
-                    "src": "#DIST"
-                },
+              "material": {
+                "shader": "flat",
+                "color": "#ffffff",
+                "src": "#DIST_PAT"
+              },
                 "rotation": {
                     "x": 0,
                     "y": 0,
@@ -64,10 +64,10 @@
     "textures": {
         "uploadedTextureFormats": {},
         "textureValues": [
-            {
-                "val": "DIST",
-                "text": "Distortionx9"
-            }
+          {
+            "val": "DIST_PAT",
+            "text": "DistPat.PNG"
+          }
         ]
     },
     "date": "4/4/2024, 4:28:24 PM"
