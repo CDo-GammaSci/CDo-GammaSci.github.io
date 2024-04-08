@@ -29,6 +29,7 @@
     <Content Include="..\Custom\patterns\ring_w1.JSON" Link="Custom\patterns\ring_w1.JSON" />
     <Content Include="..\Custom\patterns\ring_w2.JSON" Link="Custom\patterns\ring_w2.JSON" />
     <Content Include="..\Custom\patterns\ring_w5.JSON" Link="Custom\patterns\ring_w5.JSON" />
+    <Content Include="..\Custom\patterns\vbar20.JSON" Link="Custom\patterns\vbar20.JSON" />
     <Content Include="..\Custom\patterns\white.JSON" Link="Custom\patterns\white.JSON" />
     <Content Include="..\Custom\textures\FullScreen_White.png" Link="Custom\textures\FullScreen_White.png" />
     <Content Include="..\Custom\textures\HalfScreen_White.png" Link="Custom\textures\HalfScreen_White.png" />
@@ -92,6 +93,7 @@
     <None Include="..\Custom\patterns\ring_w1.js" Link="Custom\patterns\ring_w1.js" />
     <None Include="..\Custom\patterns\ring_w2.js" Link="Custom\patterns\ring_w2.js" />
     <None Include="..\Custom\patterns\ring_w5.js" Link="Custom\patterns\ring_w5.js" />
+    <None Include="..\Custom\patterns\vbar20.js" Link="Custom\patterns\vbar20.js" />
     <None Include="..\Custom\patterns\white.js" Link="Custom\patterns\white.js" />
     <None Include="..\Custom\README.md" Link="Custom\README.md" />
     <None Include="..\Custom\saving.js" Link="Custom\saving.js" />
