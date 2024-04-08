@@ -1,26 +1,34 @@
-/* 2/21/2024 Display the scene with keyboard input*/
-    document.addEventListener("keydown",(event)=>{
-        console.log(event)
-        if(event.key === "1"){
-            patternList.children[0].dispatchEvent(new Event('click',{target: patternList.children[0]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "2"){
-            patternList.children[1].dispatchEvent(new Event('click',{target: patternList.children[1]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "3"){
-            patternList.children[2].dispatchEvent(new Event('click',{target: patternList.children[2]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "4"){
-            patternList.children[3].dispatchEvent(new Event('click',{target: patternList.children[3]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "5"){
-            patternList.children[4].dispatchEvent(new Event('click',{target: patternList.children[4]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "6"){
-            patternList.children[5].dispatchEvent(new Event('click',{target: patternList.children[5]}));
-            $('#patternDisplay').trigger('change')
-        }else if(event.key === "7"){
-            patternList.children[6].dispatchEvent(new Event('click',{target: patternList.children[6]}));
-            $('#patternDisplay').trigger('change')
+document.addEventListener("keydown", (function () {
+    let inputBuffer = ""; // Accumulates key presses
+    const patternList = document.getElementById("items-list");
+    const patternPrefix = "P"; // Prefix to look for
+    const commandTerminator = ";"; // Command terminator
+    const maxDelayBetweenKeys = 1000; // Maximum allowed delay between key presses in milliseconds
+
+    let lastKeyTime = Date.now();
+
+    return function (event) {
+        const currentTime = Date.now();
+        if (currentTime - lastKeyTime > maxDelayBetweenKeys) {
+            inputBuffer = ""; // Reset buffer if too much time has passed
         }
-    })
+        lastKeyTime = currentTime;
+
+        // Add valid characters (P, digits, and ;) to inputBuffer
+        if (event.key.toUpperCase() === patternPrefix || !isNaN(event.key) || event.key === commandTerminator) {
+            inputBuffer += event.key.toUpperCase();
+            // Check if the buffer matches the command pattern, e.g., "P38;"
+            const match = inputBuffer.match(/^P(\d+);$/);
+            if (match) {
+                const index = parseInt(match[1], 10) - 1; // Convert to 0-based index
+                if (index >= 0 && index < patternList.children.length) {
+                    patternList.children[index].click(); // Trigger the click event
+                    $('#patternDisplay').trigger('change'); // Assuming jQuery is loaded
+                }
+                inputBuffer = ""; // Reset buffer after processing
+            }
+        } else {
+            inputBuffer = ""; // Reset buffer if an invalid key is pressed
+        }
+    };
+})());
