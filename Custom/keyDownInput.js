@@ -17,8 +17,8 @@ document.addEventListener("keydown", (function () {
         // Add valid characters (P, digits, and ;) to inputBuffer
         if (event.key.toUpperCase() === patternPrefix || !isNaN(event.key) || event.key === commandTerminator) {
             inputBuffer += event.key.toUpperCase();
-            // Check if the buffer matches the command pattern, e.g., "P38;"
-            const match = inputBuffer.match(/^P(\d+);$/);
+            // Check if the buffer matches the command pattern, e.g., "P38:"
+            const match = inputBuffer.match(/^P(\d+):$/);
             if (match) {
                 const index = parseInt(match[1], 10) - 1; // Convert to 0-based index
                 if (index >= 0 && index < patternList.children.length) {
