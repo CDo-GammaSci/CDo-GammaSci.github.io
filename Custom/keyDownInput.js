@@ -8,6 +8,7 @@ document.addEventListener("keydown", (function () {
     let lastKeyTime = Date.now();
 
     return function (event) {
+        console.log("Key pressed:", event.key); // Log every key press
         const currentTime = Date.now();
         if (currentTime - lastKeyTime > maxDelayBetweenKeys) {
             inputBuffer = ""; // Reset buffer if too much time has passed
