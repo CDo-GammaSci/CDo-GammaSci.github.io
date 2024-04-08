@@ -15,7 +15,7 @@ document.addEventListener("keydown", (function () {
         lastKeyTime = currentTime;
 
         // Add valid characters (P, digits, and ;) to inputBuffer
-        if (event.key.toUpperCase() === patternPrefix || !isNaN(event.key) || event.key === commandTerminator) {
+        if (event.key.toUpperCase() === patternPrefix || !isNaN(event.key) || event.key.toUpperCase() === commandTerminator) {
             inputBuffer += event.key.toUpperCase();
             // Check if the buffer matches the command pattern, e.g., "P38N"
             const match = inputBuffer.match(/^P(\d+)E$/);
