@@ -1,40 +1,37 @@
 /* Loads in prebuilt scenes and adds them to scenes json */
+import crosshair from './patterns/crosshair.JSON' assert { type: "json" };
 scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
-scenes['default']['FS_Texture'] = FS_Texture['scenes']['FS_Texture']
-scenes['default']['red'] = red['scenes']['default']
-scenes['default']['green'] = green['scenes']['default']
-scenes['default']['blue'] = blue['scenes']['default']
-scenes['default']['black'] = black['scenes']['default']
-scenes['default']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion_9x9']
-scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
-scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
-scenes['default']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
-scenes['default']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3']
 
-/*import bullseye from './patterns/bullseye.JSON' assert { type: "json" };
-scenes['default']['bullseye'] = bullseye['scenes']['bullseye']*/
+import FS_Texture from './patterns/FS_Texture.JSON' assert { type: "json" };
+scenes['default']['FS_Texture'] = FS_Texture['scenes']['FS_Texture'];
 
-/*import ring_package from './patterns/pattern_package_ring_w5_10_20.JSON' assert { type: "json" };
-scenes['default']['ring_w5'] = ring_package['scenes']['ring_w5']
-scenes['default']['ring_w10'] = ring_package['scenes']['ring_w10']
-scenes['default']['ring_w20'] = ring_package['scenes']['ring_w20']*/
+import red from './patterns/red.JSON' assert { type: "json" };
+scenes['default']['red'] = red['scenes']['default'];
 
+import green from './patterns/green.JSON' assert { type: "json" };
+scenes['default']['green'] = green['scenes']['default'];
 
+import blue from './patterns/blue.JSON' assert { type: "json" };
+scenes['default']['blue'] = blue['scenes']['default'];
 
+import black from './patterns/black.JSON' assert { type: "json" };
+scenes['default']['black'] = black['scenes']['default'];
 
-// Meta quest specific
-//scenes['Quest2']['crosshair'] = crosshair['scenes']['crosshair']
-//scenes['Quest2']['FS_Texture'] = FS_Texture['scenes']['FS_Texture']
-//scenes['Quest2']['red'] = red['scenes']['default']
-//scenes['Quest2']['green'] = green['scenes']['default']
-//scenes['Quest2']['blue'] = blue['scenes']['default']
-//scenes['Quest2']['grille'] = grille['scenes']['default']
-//scenes['Quest2']['black'] = black['scenes']['default']
-//scenes['Quest2']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion_9x9']
-//scenes['Quest2']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w']
-//scenes['Quest2']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b']
-//scenes['Quest2']['MTF_Center'] = MTF_Center['scenes']['MTF Center']
-//scenes['Quest2']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3']
+import Distortion_9x9 from './patterns/Distortion_9x9.JSON' assert { type: "json" };
+scenes['default']['Distortion_9x9'] = Distortion_9x9['scenes']['Distortion_9x9'];
+
+import checkerboard_w from './patterns/checkerboard_w.JSON' assert { type: "json" };
+scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w'];
+
+import checkerboard_b from './patterns/checkerboard_b.JSON' assert { type: "json" };
+scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b'];
+
+import MTF_Center from './patterns/MTF_Center.JSON' assert { type: "json" };
+scenes['default']['MTF_Center'] = MTF_Center['scenes']['MTF Center'];
+
+import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
+scenes['default']['MTF_3x3'] = MTF_3x3['scenes']['MTF 3x3'];
+
 
 
 

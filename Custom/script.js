@@ -146,8 +146,6 @@ const numRingsIn = document.getElementById("numRingsIn"); /* number of rings inp
 const ringPitch = document.getElementById("ringPitch"); /* ring pitch container paragraph */
 const ringPitchIn = document.getElementById("ringPitchIn"); /* ring pitch input */
 
-const textIn = document.getElementById("text");
-
 const settingsButtonContainer = document.getElementById("settingsButtonContainer");
 const settingsButton = document.getElementById("settingsButton");
 const settingsIcon = document.getElementById("settingsIcon");
@@ -191,8 +189,6 @@ const recentPackages = document.getElementById('recentPackages')
 
 const movement = document.getElementById('movementSettings');
 const movementButton = document.getElementById('movementButton');
-const movementButtonContainer = document.getElementById('movementButtonContainer');
-const stopIndividualButton = document.getElementById('stopIndividualButton');
 const movementIcon = document.getElementById('movementIcon');
 const movementType = document.getElementById('movementType');
 const movementTypeIn = document.getElementById('movementTypeIn');
@@ -207,10 +203,10 @@ const endY = document.getElementById('endY');
 const endZ = document.getElementById('endZ');
 const speedHeader = document.getElementById('speedHeader');
 const accelerationHeader = document.getElementById('accelerationHeader');
-//const keyHeader = document.getElementById('keyHeader');
+const keyHeader = document.getElementById('keyHeader');
 const speed = document.getElementById('speed');
 const acceleration = document.getElementById('acceleration');
-//const keyBind = document.getElementById('key');
+const keyBind = document.getElementById('key');
 
 const animationButton = document.getElementById('animationButton')
 const animationList = document.getElementById('movementAnims-list')
@@ -218,10 +214,6 @@ const animationListIcon = document.getElementById('animationListIcon')
 const animationListButton = document.getElementById('animationListButton')
 const animationListButtonContainer = document.getElementById('animationListButtonContainer')
 const settingsLayout = document.getElementById('settingsLayout')
-
-const startAllButton = document.getElementById('startAllButton')
-const pauseAllButton = document.getElementById('pauseAllButton')
-const stopAllButton = document.getElementById('stopAllButton')
 
 
 /* Local Variables */
@@ -242,8 +234,6 @@ var grilleNum = 0;
 var dotarrayNum = 0;
 var circularDotarrayNum = 0;
 var bullseyeNum = 0;
-var textNum = 0;
-var timerNum = 0;
 var textureNum = 0;
 var numAdded = 0; /* total entities added */
 
@@ -254,9 +244,6 @@ var fileContent = null; /* contents of uploaded JSON file */
 
 var uploadedTextureFormat = {};
 var scenes = {default: {}};
-
-const packages = {default: ''} // dictionary of packages and their respective links
-const names = {default: {}} // list of packages and the names and count of names of each pattern within
 
 
 patternList.setAttribute('multi-select',false);
@@ -276,7 +263,7 @@ items.forEach(item => {
 let i = 0;
 let reorderedScene = {}
 while(i < patternList.children.length){
-  reorderedScene[patternList.children[i].id] = scenes[packageSelect.value][patternList.children[i].id]
+  reorderedScene[patternList.children[i].innerHTML] = scenes[packageSelect.value][patternList.children[i].innerHTML]
   i++;
 }
 scenes[packageSelect.value] = reorderedScene
@@ -284,34 +271,14 @@ scenes[packageSelect.value] = reorderedScene
 // handles a pattern being selected from the pattern list
 function selectPattern (e){
   stopAllMovement()
-  if(e.target.style.background == 'rgb(243, 152, 20)' && patternList.getAttribute("multi-select") == false){ // if selected pattern is highlighted, unselect it
+  if(e.target.style.background == 'rgb(243, 152, 20)'){ // if selected pattern is highlighted, unselect it
     e.target.style.background = '#FFF'
     patternList.setAttribute("selectedIndex","")
     patternList.setAttribute("multi-select",false);
     revertChanges()
     //nameIn.value = packageSelect.value;
     return;
-  } else if(e.target.style.background == 'rgb(243, 152, 20)' && patternList.getAttribute("multi-select") == 'true'){
-    e.target.style.background = '#FFF';
-    first = true;
-    items.forEach(item => { // changes displayed pattern to selected pattern
-      if(item.style.background == 'rgb(243, 152, 20)' && first) {
-        first = false;
-        patternList.setAttribute("selectedIndex",$(item).index())
-        
-        revertChanges()
-        addEntitiesFromScene(scenes[packageSelect.value][patternList.children[parseInt(patternList.getAttribute('selectedIndex'))].id])
-        //nameIn.value = patternList.children[parseInt(patternList.getAttribute('selectedIndex'))].textContent;
-        if(els.length > 0){
-          selectedEntity = els[0]
-        }
-      } else if(item.style.background == 'rgb(243, 152, 20)' && !first){
-        patternList.setAttribute("multi-select",true);
-      }
-    })
-    return;
   }
-
   e.target.style.background = '#F39814' // highlights selected pattern
   items = document.querySelectorAll('#items-list > li');
   if(keysPressed['ctrl'] && !isNaN(parseInt(patternList.getAttribute('selectedIndex')))){ // checks for multiselect
@@ -325,7 +292,7 @@ function selectPattern (e){
       patternList.setAttribute("selectedIndex",$(item).index())
       patternList.setAttribute("multi-select",false);
       revertChanges()
-      addEntitiesFromScene(scenes[packageSelect.value][patternList.children[parseInt(patternList.getAttribute('selectedIndex'))].id])
+      addEntitiesFromScene(scenes[packageSelect.value][patternList.children[parseInt(patternList.getAttribute('selectedIndex'))].textContent])
       //nameIn.value = patternList.children[parseInt(patternList.getAttribute('selectedIndex'))].textContent;
       if(els.length > 0){
         selectedEntity = els[0]
@@ -387,7 +354,7 @@ function dropped (e) {
   let i = 0;
   let reorderedScene = {}
   while(i < patternList.children.length){
-    reorderedScene[patternList.children[i].id] = scenes[packageSelect.value][patternList.children[i].id]
+    reorderedScene[patternList.children[i].innerHTML] = scenes[packageSelect.value][patternList.children[i].innerHTML]
     i++;
   }
   scenes[packageSelect.value] = reorderedScene

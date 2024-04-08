@@ -188,40 +188,25 @@
         <div id="info" style="overflow-y: auto;">
             <div id="coreLayout" class="core-container" style="grid-template-columns: 100% 0%; width: 260px; height: 840px; grid-template-rows: 7% 7% 86%">
                 <div class="hide"><button type="button" class="collapsible" id="collapse" onclick="collapseTab()">Hide Tab</button></div>
-                <div class="swap" style="border-bottom: 1px solid black;">
-                    <div id="swapContainer" style="float:left; padding-left: 18px; padding-top:12px;">
-                        Display<input type="checkbox" id="displayUtility"
-                                      class="checkbox" onclick="toggleDisplayEdit(true)" />
-                        <label for="displayUtility" class="toggle"> </label>                              Edit
-                    </div><div id="settingsButtonContainer" style="padding-left: 10%; padding-bottom: 13px; display: inline-block; width: 54.73px; float: right; padding-top:12px; padding-right:14px;"><button id="settingsButton" style="text-align:center; width:100%;" class="button add" onclick="openSettings()" title="Open Settings"><i id="settingsIcon" class="fa-solid fa-gear"></i></button></div><div id="animationListButtonContainer" style="padding-left: 10%; padding-bottom: 13px; display: none; width: 54.73px; float: right; padding-top:12px; padding-right:14px;"><button id="animationListButton" style="text-align:center; width:100%;" class="button add" onclick="openAnimationList()" title="Open animation list"><i id="animationListIcon" class="fa-solid fa-wand-sparkles"></i></button></div>
-                </div>
+                <div class="swap" style="border-bottom: 1px solid black;"><div id="swapContainer" style="float:left; padding-left: 18px; padding-top:12px;">Display<input type="checkbox" id="displayUtility"
+                    class="checkbox" onclick="toggleDisplayEdit(true)"/>
+                    <label for="displayUtility" class="toggle"> </label>                              Edit</div><div id="settingsButtonContainer" style="padding-left: 10%; padding-bottom: 13px; display: inline-block; width: 54.73px; float: right; padding-top:12px; padding-right:14px;"><button id="settingsButton" style="text-align:center; width:100%;" class="button add" onclick="openSettings()" title="Open Settings"><i id="settingsIcon" class="fa-solid fa-gear"></i></button></div><div id="animationListButtonContainer" style="padding-left: 10%; padding-bottom: 13px; display: none; width: 54.73px; float: right; padding-top:12px; padding-right:14px;"><button id="animationListButton" style="text-align:center; width:100%;" class="button add" onclick="openAnimationList()" title="Open animation list"><i id="animationListIcon" class="fa-solid fa-wand-sparkles"></i></button></div></div>
                 <div class="content">
                     <div id="packageLayout" class="display-grid">
-                        <div class="packages" style="border-bottom: 1px solid black; padding-top: 5px;">
-                            <b style="padding-right: 4%;">Packages:</b><button style="text-align:center; width:20%;" class="button add" onclick="saveSelected()" title="Save Package"><i class="fa-solid fa-download"></i></button><div style="padding-right: 2%; padding-left: 2%; padding-bottom: 5%; display: inline-block; width: 20%;"><button style="text-align:center; width:100%;" class="button add" onclick="addPackage()" title="Add Package"><i class="fa-solid fa-plus"></i></button></div><button style="text-align:center; width:20%" class="button reset" onclick="removePackage()" title="Delete Package"><i class="fa-solid fa-trash"></i></button>
+                        <div class="packages" style="border-bottom: 1px solid black; padding-top: 5px;"><b style="padding-right: 4%;">Packages:</b><button style="text-align:center; width:20%;" class="button add" onclick="saveSelected()"  title="Save Package"><i class="fa-solid fa-download"></i></button><div style="padding-right: 2%; padding-left: 2%; padding-bottom: 5%; display: inline-block; width: 20%;"><button style="text-align:center; width:100%;" class="button add" onclick="addPackage()"  title="Add Package"><i class="fa-solid fa-plus"></i></button></div><button style="text-align:center; width:20%" class="button reset" onclick="removePackage()"  title="Delete Package"><i class="fa-solid fa-trash"></i></button>
                             <p style="position: relative; text-align: center; padding-bottom: 2%; top: 0%;">
                                 <select class="select" name="packageDisplay" id="packageDisplay" onchange="changePackage(this)">
                                     <option value="default">default</option>
                                 </select>
                             </p>
                             <div>
-                                Upload Package:
+                                    Upload Package:            
                             </div>
                             <p><input style="width: 100%; padding-top: 10" type="file" id="scene-disp-input" accept=".json" multiple></p>
-                            <div>
-                                Recent packages: <select class="select" id="recentPackages" onchange="changeUrl(this)">
-                                </select>
-                            </div>
+                            <div> Recent packages: <select class="select" id="recentPackages" onchange="changeUrl(this)">
+                            </select></div>
                         </div>
-                        <div class="patterns" title="Hold the ctrl button to select multiple" style="padding-top: 5px;">
-                            <b style="padding-right: 10%;">Pattern List:</b>
-                            <div style="padding-right: 5%; padding-bottom: 5%; display: inline-block; width: 20%;">
-                                <button style="text-align:center; width:100%;" class="button add" onclick="addPattern()" title="Add Pattern">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
-                            </div>
-                            <button style="text-align:center; width:20%" class="button reset" onclick="removePattern()" title="Delete Patterns"><i class="fa-solid fa-trash"></i></button>
-                            <ol id="items-list" class="moveable" selectedIndex="" multi-select="" style="padding-top: 1%; padding-left: 15px; overflow-y: scroll;">
+                        <div class="patterns" title="Hold the ctrl button to select multiple" style="padding-top: 5px;"><b style="padding-right: 10%;">Pattern List:</b><div style="padding-right: 5%; padding-bottom: 5%; display: inline-block; width: 20%;"><button style="text-align:center; width:100%;" class="button add" onclick="addPattern()"  title="Add Pattern"><i class="fa-solid fa-plus"></i></button></div><button style="text-align:center; width:20%" class="button reset" onclick="removePattern()"  title="Delete Patterns"><i class="fa-solid fa-trash"></i></button><ol id="items-list" class="moveable" selectedIndex="" multi-select="" style="padding-top: 1%; padding-left: 15px; overflow-y: scroll;">
                                 <li id="crosshair">crosshair</li>
                                 <li id="FS_Texture">FS White</li>
                                 <li id="red">FS Red</li>
@@ -233,23 +218,18 @@
                                 <li id="checkerboard_b">checkerboard_b</li>
                                 <li id="MTF_Center">MTF Center</li>
                                 <li id="MTF_3x3">MTF 3x3</li>
-                            </ol>
-                        </div>
+                        </ol></div>
                     </div>
                     <div id="addEditContent" style="display: none;">
 
-                        <p style="text-align:center;">
-                            Add Entity              <input type="checkbox" id="utility"
-                                                           class="checkbox" onclick="toggleAddEdit(true)" />
-                            <label for="utility" class="toggle"> </label>                  Edit Entity
-                        </p>
+                        <p style="text-align:center;">Add Entity              <input type="checkbox" id="utility"
+                            class="checkbox" onclick="toggleAddEdit(true)"/>
+                            <label for="utility" class="toggle"> </label>                  Edit Entity</p>
                         <p id="backgroundSettings"><b>Background Settings</b></p>
-                        <div id="skyIn" position="absolute" width="45%" left="0">Sky Color: <input type="text" class="input" id="skyCol" value="#000000"></div>
+                            <div id="skyIn" position="absolute" width="45%" left="0">Sky Color: <input type="text" class="input" id="skyCol" value="#000000"></div>
                         </p>
-                        <div id="editSelector" style="display: flex; justify-content: space-between; padding-bottom: 5px;">
-                            <div>Entity: </div><select name="entityId" id="entityId" onchange="selectNew(null)">
-                            </select>
-                        </div>
+                        <div id="editSelector" style="display: flex; justify-content: space-between; padding-bottom: 5px;"><div>Entity: </div><select name="entityId" id="entityId"  onchange="selectNew(null)">
+                        </select></div>
 
                         <div id="editContent" class="entity-container">
                             <div id="universalSettings" class="universal">
@@ -264,12 +244,12 @@
                                 <div id="roll" class="roll"><input type="number" class="input" id="rotationZ" value="0"></div>
                                 <div id="entColor" class="EntColor"><div style="width: fit-content; display: inline-block; padding-right: 25px;">Entity Color: </div><input type="text" class="input" id="color" value="#FFFFFF"></div>
                                 <!--<div id="hideUniversal" style="position:absolute; top: -1px; left:-10px;"><button id="hideUniversalButton" style="text-align:center; width:25px; height: 18px; padding: 0px;" class="button reset" onclick="hideUniversal()" title="Hide Universal Settings"><i id="hideUniversalIcon" class="fa-solid fa-chevron-down" style="font-size: 13px"></i></button></div>-->
-                            </div>
+                            </div>  
                             <div id="specificSettings" class="specific" style="position: relative;">
                                 <!--<div id="hideSpecific" style="position:absolute; top: -1px; left:-10px;"><button id="hideSpecificButton" style="text-align:center; width:25px; height: 18px; padding: 0px;" class="button reset" onclick="hideSpecific()" title="Hide Specific Settings"><i id="hideSpecificIcon" class="fa-solid fa-chevron-down" style="font-size: 13px"></i></button></div>-->
-                                <div id="specificHeader" class="specificHeader" onclick="hideSpecific()"><b>Specific Settings</b></div>
+                                <div id="specificHeader" class="specificHeader"  onclick="hideSpecific()"><b>Specific Settings</b></div>
                                 <div id="area1" class="area1">
-                                    <div id="heightIn" style="justify-content: space-between;">Height (m): <input type="number" class="input" id="height" value=".25"></div>
+                                    <div id="heightIn" style="justify-content: space-between;">Bar Height (m): <input type="number" class="input" id="height" value=".25"></div>
                                     <div id="radiusIn" style="justify-content: space-between;">Radius (m): <input type="number" class="input" id="radius" value=".125"></div>
                                     <div id="cols" style="justify-content: space-between;">Number of columns: <input type="number" class="input" id="colsIn" value="16"></div>
                                     <div id="numDots" style="justify-content: space-between;">Number of dots: <input type="number" class="input" id="numDotsIn" value="16"></div>
@@ -277,7 +257,7 @@
                                     <div id="vertices">Vertices (x: m, y: m)</div>
                                 </div>
                                 <div id="area2" class="area2">
-                                    <div id="widthIn" style="justify-content: space-between;">Width (m): <input type="number" class="input" id="width" value=".125"></div>
+                                    <div id="widthIn" style="justify-content: space-between;">Bar Width (m): <input type="number" class="input" id="width" value=".125"></div>
                                     <div id="rows" style="justify-content: space-between;">Number of rows: <input type="number" class="input" id="rowsIn" value="16"></div>
                                     <div id="numCircles" style="justify-content: space-between;">Number of rings: <input type="number" class="input" id="numCirclesIn" value=".1"></div>
                                     <div id="ringPitch" style="justify-content: space-between;">Ring Pitch: <input type="number" class="input" id="ringPitchIn" value=".1"></div>
@@ -289,11 +269,9 @@
                                     <div id="tileSize" style="justify-content: space-between;">Tile size: <input type="number" class="input" id="tileSizeIn" value=".1"></div>
                                     <div id="circleSize" style="justify-content: space-between;">Radius of dots: <input type="number" class="input" id="circleSizeIn" value=".1"></div>
                                     <div id="vb" style="justify-content: space-between;">Vertex B:<input type="number" class="input" id="vbx" value="-0.25"> <input type="number" class="input" id="vby" value="-0.25"> </div>
-                                    <div id="textIn" style="justify-content: space-between;">Text Content: <textarea class="input" id="text" style="width: 100%;" value="Default Text"></textarea></div>
                                 </div>
                                 <div id="area4" class="area4">
-                                    <div id="textureIn" style="justify-content: space-between;">
-                                        Texture:                 <select class="select" name="texture" id="texture">
+                                    <div id="textureIn" style="justify-content: space-between;">Texture:                 <select class="select" name="texture" id="texture">
     <option value="none">none</option>
     <option value="FS_W">FullScreen_White</option>
     <option value="HS_W">HalfScreen_White</option>
@@ -335,8 +313,7 @@
     <option value="HB_18">HBARS_LP_18</option>
     <option value="HB_19">HBARS_LP_19</option>
     <option value="HB_20">HBARS_LP_20</option>
-</select>
-                                    </div>
+                                    </select></div>
                                     <div id="colIn2" position="absolute" width="75%" left="0" style="justify-content: space-between;">Secondary Color: <input type="text" class="input" id="color2" value="#FFFFFF"></div>
                                     <div id="arraySpacing" style="justify-content: space-between;">Spacing of rings: <input type="number" class="input" id="arraySpacingIn" value=".1"></div>
                                     <div id="spacing" style="justify-content: space-between;">Spacing of dots: <input type="number" class="input" id="spacingIn" value=".1"></div>
@@ -348,73 +325,71 @@
                                 </div>
                             </div>
                             <div id="removeEntity" class="removeEnt"><div style="display: inline-block; width: 50%;"><button class="button reset" onclick="removeEntity()" title="Rmove Entity" style="width: 60%;"><i id="settingsIcon" class="fa-solid fa-trash"></i></button></div><div style="display: inline-block; width: 50%;"><button class="button add" onclick="duplicateEntity()" title="Duplicate Entity" style="width: 60%;"><i id="settingsIcon" class="fa-solid fa-clone"></i></button></div></div>
-
+                            
                             <!--<div id="animationSettings" class="animation">
-                            <div id="animationHeader"><b>Animation Settings</b><div id="animationButtonContainer" style="padding-left: 35px; display: inline-block; width: 30px;"><button id="animationButton" style="text-align:center; width:100%;" class="button add" onclick="handleAnimationToggle(event)" title="Start Animation"><i id="animationIcon" class="fa-solid fa-play"></i></button></div></div>
-                            <div id="animationType">Animation Type: <select class="select" name="animationType" id="animationTypeIn">
-                                <option value="None">None</option>
-                                <option value="position">Position</option>
-                                <option value="rotation">Rotation</option>
-                                <option value="color">Color</option>
-                            </select></div>
-                            <div id="animationContent">
-                                <div id="AnimArea1">
-                                    <div id="animMovementType">Movement Type: <select class="select" name="movementType" id="movementTypeIn">
-                                        <option value="None">None</option>
-                                        <option value="t">Teleport</option>
-                                        <option value="start">Start to finish</option>
-                                        <option value="rubberband">Rubberband</option>
-                                    </select></div>
-                                </div>
-                                <div id="AnimArea2">
-                                    <div id="AnimMovementStartHeader">Start (&alpha;: deg, y: m, r: m): </div>
-                                </div>
-                                <div id="AnimArea3">
-                                    <div id="AnimMovementStart" style="display: grid; grid-template-areas: 'startX startY startZ';"><div id="startXIn" class="startX"><input type="text" class="input" id="startX" value="0"></div>
-                                    <div id="startYIn" class="startY"><input type="text" class="input" id="startY" value="0"></div>
-                                    <div id="startZIn" class="startZ"><input type="text" class="input" id="startZ" value="0"></div></div>
-                                </div>
-                                <div id="AnimArea4">
-                                    <div id="AnimMovementEndHeader">End (&alpha;: deg, y: m, r: m): </div>
-                                </div>
-                                <div id="AnimArea5">
-                                    <div id="AnimMovementEnd" style="display: grid; grid-template-areas: 'endX endY endZ';"><div id="endXIn" class="endX"><input type="text" class="input" id="endX" value="0"></div>
-                                    <div id="endYIn" class="endY"><input type="text" class="input" id="endY" value="0"></div>
-                                    <div id="endZIn" class="endZ"><input type="text" class="input" id="endZ" value="0"></div></div>
-                                </div>
-                                <div id="AnimArea6">
-                                    <div id="AnimMovementSpeedHeader">Speed (m/s)</div>
-                                </div>
-                                <div id="AnimArea7">
-                                    <div id="AnimMovementSpeed">
-                                        <input type="text" class="input" id="speedIn" value="100">
+                                <div id="animationHeader"><b>Animation Settings</b><div id="animationButtonContainer" style="padding-left: 35px; display: inline-block; width: 30px;"><button id="animationButton" style="text-align:center; width:100%;" class="button add" onclick="handleAnimationToggle(event)" title="Start Animation"><i id="animationIcon" class="fa-solid fa-play"></i></button></div></div>
+                                <div id="animationType">Animation Type: <select class="select" name="animationType" id="animationTypeIn">
+                                    <option value="None">None</option>
+                                    <option value="position">Position</option>
+                                    <option value="rotation">Rotation</option>
+                                    <option value="color">Color</option>
+                                </select></div>
+                                <div id="animationContent">
+                                    <div id="AnimArea1">
+                                        <div id="animMovementType">Movement Type: <select class="select" name="movementType" id="movementTypeIn">
+                                            <option value="None">None</option>
+                                            <option value="t">Teleport</option>
+                                            <option value="start">Start to finish</option>
+                                            <option value="rubberband">Rubberband</option>
+                                        </select></div>
                                     </div>
-                                </div>
-                                <div id="AnimArea8">
-                                    <div id="AnimMovementAccelHeader">Acceleration (m/s<sup>2</sup>)</div>
-                                </div>
-                                <div id="AnimArea9">
-                                    <div id="AnimMovementSpeed">
-                                        <input type="text" class="input" id="accelerationIn" value="1">
+                                    <div id="AnimArea2">
+                                        <div id="AnimMovementStartHeader">Start (&alpha;: deg, y: m, r: m): </div>
                                     </div>
+                                    <div id="AnimArea3">
+                                        <div id="AnimMovementStart" style="display: grid; grid-template-areas: 'startX startY startZ';"><div id="startXIn" class="startX"><input type="text" class="input" id="startX" value="0"></div>
+                                        <div id="startYIn" class="startY"><input type="text" class="input" id="startY" value="0"></div>
+                                        <div id="startZIn" class="startZ"><input type="text" class="input" id="startZ" value="0"></div></div>
+                                    </div>
+                                    <div id="AnimArea4">
+                                        <div id="AnimMovementEndHeader">End (&alpha;: deg, y: m, r: m): </div>
+                                    </div>
+                                    <div id="AnimArea5">
+                                        <div id="AnimMovementEnd" style="display: grid; grid-template-areas: 'endX endY endZ';"><div id="endXIn" class="endX"><input type="text" class="input" id="endX" value="0"></div>
+                                        <div id="endYIn" class="endY"><input type="text" class="input" id="endY" value="0"></div>
+                                        <div id="endZIn" class="endZ"><input type="text" class="input" id="endZ" value="0"></div></div>
+                                    </div>
+                                    <div id="AnimArea6">
+                                        <div id="AnimMovementSpeedHeader">Speed (m/s)</div>
+                                    </div>
+                                    <div id="AnimArea7">
+                                        <div id="AnimMovementSpeed">
+                                            <input type="text" class="input" id="speedIn" value="100">
+                                        </div>
+                                    </div>
+                                    <div id="AnimArea8">
+                                        <div id="AnimMovementAccelHeader">Acceleration (m/s<sup>2</sup>)</div>
+                                    </div>
+                                    <div id="AnimArea9">
+                                        <div id="AnimMovementSpeed">
+                                            <input type="text" class="input" id="accelerationIn" value="1">
+                                        </div>
+                                    </div>
+                                    <div id="rotationContent"></div>
                                 </div>
-                                <div id="rotationContent"></div>
-                            </div>
-                        </div>-->
-
+                            </div>-->
+                            
                             <div id="movementSettings" class="movement">
 
                                 <!-- TODO -->
-                                <div id="movementHeader" class="movementHeader" onclick="hideMovement()"><b>Movement Settings</b><div id="movementButtonContainer" style="padding-left: 10px; display: inline; width: 30px;"><button id="movementButton" style="text-align:center; width:15%;display: inline;" class="button add" onclick="handleMovementToggle(event)" title="Start Movement"><i id="movementIcon" class="fa-solid fa-play"></i></button><button id="stopIndividualButton" style="display:inline; text-align:center; width:15%;" class="button add" onclick="stopIndividual(event)" title="Stop Movement" disabled><i id="stopIcon" class="fa-solid fa-stop"></i></button></div></div>
-                                <div id="movementType" class="movementType">
-                                    Movement Type: <select class="select" name="movementType" id="movementTypeIn">
-                                        <option value="None">None</option>
-                                        <option value="Pause">Pause</option>
-                                        <option value="Discontinuous">Discontinuous</option>
-                                        <option value="Start">Start to finish</option>
-                                        <option value="Rubberband">Rubberband</option>
-                                    </select>
-                                </div>
+                                <div id="movementHeader" class="movementHeader" onclick="hideMovement()"><b>Movement Settings</b><div id="movementButtonContainer" style="padding-left: 40px; display: inline-block; width: 30px;"><button id="movementButton" style="text-align:center; width:100%;" class="button add" onclick="handleMovementToggle(event)" title="Start Movement"><i id="movementIcon" class="fa-solid fa-play"></i></button></div></div>
+                                <div id="movementType" class="movementType">Movement Type: <select class="select" name="movementType" id="movementTypeIn">
+                                    <option value="None">None</option>
+                                    <option value="Pause">Pause</option>
+                                    <option value="Discontinuous">Discontinuous</option>
+                                    <option value="Start">Start to finish</option>
+                                    <option value="Rubberband">Rubberband</option>
+                                </select></div>
                                 <div id="startHeader" class="startHeader">Start Point (&alpha;: deg, y: m, r: m): </div>
                                 <div id="startXIn" class="startX"><input type="number" class="input" id="startX" value="0"></div>
                                 <div id="startYIn" class="startY"><input type="number" class="input" id="startY" value="0"></div>
@@ -425,17 +400,16 @@
                                 <div id="endZIn" class="endZ"><input type="number" class="input" id="endZ" value="250"></div>
                                 <div id="speedHeader" class="speedHeader">Speed (m/s)</div>
                                 <div id="accelerationHeader" class="accelerationHeader">Acceleration (m/s<sup>2</sup>)</div>
-                                <div id="keyHeader" class="keyHeader" style="display: none;">Key</div>
+                                <div id="keyHeader" class="keyHeader">Key</div>
                                 <div id="speedIn" class="speed"><input type="number" class="input" id="speed" value="100"></div>
                                 <div id="accelerationIn" class="acceleration"><input type="number" class="number" id="acceleration" value="1"></div>
-                                <div id="keyIn" class="key" style="display: none;"><input type="text" class="input" id="key" value="m"></div>
+                                <div id="keyIn" class="key"><input type="text" class="input" id="key" value="m"></div>
 
                             </div>
                         </div>
-
+    
                         <div id="addContent">
-                            <p id="addChoice" style="text-align:center; display: flex; justify-content: space-between;">
-                                <b>Type of entity:</b>
+                            <p id="addChoice" style="text-align:center; display: flex; justify-content: space-between;"><b>Type of entity:</b>
                                 <select class="select" name="entity" id="entity">
                                     <option value="circle">circle</option>
                                     <option value="plane">plane</option>
@@ -446,33 +420,27 @@
                                     <option value="dotarray">dot array</option>
                                     <option value="dotcircle">circlular dot array</option>
                                     <option value="bullseye">bullseye</option>
-                                    <option value="text">text</option>
-                                    <option value="timer">timer</option>
                                 </select>
                             </p>
                             <p style="text-align:center;" id="addButton">
                                 <button class="button add" onclick="addEntity()">Add to Pattern</button>
                             </p>
                             <p style="text-align:center;" id="removeButton">
-                                <button class="button reset" onclick="removeEntity()">Remove from Pattern</button>
-                            </p>
+                                <button class="button reset" onclick="removeEntity()">Remove from Pattern</button></p>
                             <p style="text-align:center;" id="duplicateButton">
-                                <button class="button add" onclick="duplicateEntity()">Duplicate Entity</button>
-                            </p>
-
+                                <button class="button add" onclick="duplicateEntity()">Duplicate Entity</button></p>
+    
                             <form id="reset" style="text-align:center;">
                                 <button type="button" class="button reset" onclick="resetScene()">Reset Pattern</button>
                             </form>
-                            <p id="addChoice" style="text-align:center; display: flex; justify-content: space-between;"><b>Animation Settings</b></p>
+                            <p id="addChoice" style="text-align:center; display: flex; justify-content: space-between;"><b>Animation Settings</b><button class="button add" onclick="handleAll()" id="handleAllButton" style="width: 20%;"><i class="fa-solid fa-play"></i></button></p>
                             <p style="text-align:center;" id="addButton">
-                                <button class="button add" onclick="startAll()" id="startAllButton" style="width: 20%;"><i class="fa-solid fa-play"></i></button>
-                                <button class="button add" onclick="pauseAll()" id="pauseAllButton" style="width: 20%;" disabled><i class="fa-solid fa-pause"></i></button>
-                                <button class="button reset" onclick="stopAll()" id="stopAllButton" style="width: 20%;" disabled><i class="fa-solid fa-stop"></i></button>
+                                <button class="button reset" onclick="stopAll()" id="stopAllButton">Stop All</button>
                             </p>
                         </div>
-
+ 
                     </div>
-
+           
                 </div>
                 <div id="settings">
                     <div id="settingsLayout" class="settings-container">
@@ -480,61 +448,33 @@
                             <div id="packageSettingsContainer" class="package-settings-container">
                                 <b class="packageSettingsHeader">Package Settings:</b>
                                 <div class="renamePackage"><button style="text-align:center;" class="button add" onclick="renamePackage()">Rename</button></div>
-                                <div class="export"><button style="text-align:center;" class="button add" onclick="pastebinPost(true)" title="Pastebin Export"><i class="fa-solid fa-cloud-arrow-up"></i></button></div>
-                                <div class="import"><button style="text-align:center;" class="button add" onclick="handleImport()" title="Pastebin Import"><i class="fa-solid fa-cloud-arrow-down"></i></button></div>
+                                <div class="export"><button style="text-align:center;" class="button add" onclick="pastebinPost()"  title="Pastebin Export"><i class="fa-solid fa-cloud-arrow-up"></i></button></div>
+                                <div class="import"><button style="text-align:center;" class="button add" onclick="handleImport()"  title="Pastebin Import"><i class="fa-solid fa-cloud-arrow-down"></i></button></div>
                             </div>
                             <div id="patternSettingsContainer" class="pattern-settings-container">
                                 <b class="patternSettingsHeader">Pattern Settings:</b>
                                 <div class="renamePattern"><button style="text-align:center;" class="button add" onclick="renamePattern()" title="Rename Pattern">Rename</button></div>
-                                <div class="cut"><button style="text-align:center; cursor: copy;" class="button add" onclick="cutPattern()" title="Cut (Ctrl+x)"><i class="fa-solid fa-cut"></i></button></div>
-                                <div class="copy"><button style="text-align:center; cursor: copy;" class="button add" onclick="copyPattern()" title="Copy (Ctrl+c)"><i class="fa-solid fa-copy"></i></button></div>
-                                <div class="paste"><button style="text-align:center;" class="button add" onclick="pastePattern()" title="Paste (Ctr+v)"><i class="fa-solid fa-paste"></i></button></div>
+                                <div class="cut"><button style="text-align:center; cursor: copy;" class="button add" onclick="cutPattern()"  title="Cut (Ctrl+x)"><i class="fa-solid fa-cut"></i></button></div>
+                                <div class="copy"><button style="text-align:center; cursor: copy;" class="button add" onclick="copyPattern()"  title="Copy (Ctrl+c)"><i class="fa-solid fa-copy"></i></button></div>
+                                <div class="paste"><button style="text-align:center;" class="button add" onclick="pastePattern()"  title="Paste (Ctr+v)"><i class="fa-solid fa-paste"></i></button></div>
                             </div>
                         </div>
                         <div id="animationListContainer" class="animationListContainer">
-                            <div class="patterns" title="Reorder or select an animation" style="padding-top: 5px;">
-                                <b style="padding-right: 10%;">Animation List:</b><div style="padding-right: 5%; padding-bottom: 5%; display: inline-block; width: 15%;"><button style="text-align:center; width:100%;" class="button add" onclick="addMovementAnim()" title="Add Animation"><i class="fa-solid fa-plus"></i></button></div><button style="text-align:center; width:15%" class="button reset" onclick="removeMovementAnim()" title="Delete Animation"><i class="fa-solid fa-trash"></i></button><ol id="movementAnims-list" class="moveable" selectedIndex="0" multi-select="" style="padding-top: 1%; padding-left: 15px; overflow-y: scroll;">
-                                    <li style="background-color: #F39814;">None</li>
-                                </ol>
-                            </div>
+                            <div class="patterns" title="Reorder or select an animation" style="padding-top: 5px;"><b style="padding-right: 10%;">Animation List:</b><div style="padding-right: 5%; padding-bottom: 5%; display: inline-block; width: 15%;"><button style="text-align:center; width:100%;" class="button add" onclick="addMovementAnim()"  title="Add Animation"><i class="fa-solid fa-plus"></i></button></div><button style="text-align:center; width:15%" class="button reset" onclick="removeMovementAnim()"  title="Delete Animation"><i class="fa-solid fa-trash"></i></button><ol id="movementAnims-list" class="moveable" selectedIndex="0" multi-select="" style="padding-top: 1%; padding-left: 15px; overflow-y: scroll;">
+                                <li style="background-color: #F39814;">None</li>
+                            </ol></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="directions">
-            <button type="button" class="collapsible" id="directionsCollapse" style="width:100%;height:100%;" title="Click for help" onclick="window.open('https://didsr.github.io/WebXR-tools/Custom/doc/','_blank')"><i class="fa-solid fa-circle-info"></i></button>
+        <button type="button" class="collapsible" id="directionsCollapse" style="width:100%;height:100%;"  title="Click for help" onclick="window.open('https://didsr.github.io/WebXR-tools/Custom/doc/','_blank')"><i class="fa-solid fa-circle-info"></i></button>
 
         </div>
 
-        <div id="debug" style="display:none;">
-            <b>Console: </b>
+        <div id="debug">
         </div>
-
-        <!-- Default Patterns -->
-        <script src="./patterns/blue.js"></script>
-        <script src="./patterns/bullseye.js"></script>
-        <script src="./patterns/checkerboard_b.js"></script>
-        <script src="./patterns/checkerboard_w.js"></script>
-        <script src="./patterns/circularDotArray.js"></script>
-        <script src="./patterns/crosshair.js"></script>
-        <script src="./patterns/MTF_Center.js"></script>
-        <script src="./patterns/flying_spot.js"></script>
-        <script src="./patterns/green.js"></script>
-        <script src="./patterns/grille.js"></script>
-        <script src="./patterns/line.js"></script>
-        <script src="./patterns/red.js"></script>
-        <script src="./patterns/ring_w1.js"></script>
-        <script src="./patterns/ring_w2.js"></script>
-        <script src="./patterns/ring_w5.js"></script>
-        <script src="./patterns/white.js"></script>
-        <script src="./patterns/FS_Texture.js"></script>
-        <script src="./patterns/black.js"></script>
-        <script src="./patterns/MTF_3x3.js"></script>
-        <script src="./patterns/Distortion_9x9.js"></script>
-        <script src="../lib/controller_profile.js"></script>
-
-
         <script src="script.js" type="text/javascript"></script>
         <script src="graphicInterface.js" type="text/javascript"></script>
         <script src="utility.js" type="text/javascript"></script>
@@ -544,13 +484,13 @@
         <script src="saving.js" type="text/javascript"></script>
         <script src="uploading.js" type="text/javascript"></script>
         <script src="pastebinInterface.js" type="text/javascript"></script>
-        <script src="load.js" type="text/javascript"></script>
-        <script src="ControllerInputMapping.js" type="text/javascript"></script>
+        <script src="load.js" type="module"></script>
+        <script src="ControllerInputMapping.js" type="module"></script>
         <script src="sharing.js" type="text/javascript"></script>
         <script src="entityMovement.js" type="text/javascript"></script>
         <script src="animation.js" type="text/javascript"></script>
-
-
+        <script src="keyDownInput.js" type="text/javascript"></script>
+        
     </body>
 
 </html>

@@ -50,7 +50,7 @@ function hideEditStats(){
     ringPitch.style.display = "none";
     numRings.style.display = "none";
     toggleCenterDot.style.display = "none";
-    textIn.style.display = "none";
+
 }
 
 function updateMovementSettings(){
@@ -71,8 +71,8 @@ function updateMovementSettings(){
         keyHeader.style.display = "none"
         speed.style.display = "none"
         acceleration.style.display = "none"
-        //keyBind.style.display = "none"
-        movementButtonContainer.style.display = "none"
+        keyBind.style.display = "none"
+        movementButton.style.display = "none"
     } else if(movementTypeIn.value == "None"){
         if(selectedEntity.getAttribute('advanced').val){
             startHeader.innerHTML = 'Start Point (x: m, y: m, z: m)'
@@ -92,8 +92,8 @@ function updateMovementSettings(){
         keyHeader.style.display = "none"
         speed.style.display = "none"
         acceleration.style.display = "none"
-        //keyBind.style.display = "none"
-        movementButtonContainer.style.display = "none"
+        keyBind.style.display = "none"
+        movementButton.style.display = "none"
     } else if(movementTypeIn.value == "Start" || movementTypeIn.value == "Rubberband"){
         if(selectedEntity.getAttribute('advanced').val){
             startHeader.innerHTML = 'Start Point (x: m, y: m, z: m)'
@@ -115,7 +115,7 @@ function updateMovementSettings(){
         speed.style.display = "block"
         acceleration.style.display = "block"
         //key.style.display = "block"
-        movementButtonContainer.style.display = "inline"
+        movementButton.style.display = "block"
     } else {
         if(selectedEntity.getAttribute('advanced').val){
             startHeader.innerHTML = 'Start Point (x: m, y: m, z: m)'
@@ -137,7 +137,7 @@ function updateMovementSettings(){
         speed.style.display = "block"
         acceleration.style.display = "none"
         //key.style.display = "block"
-        movementButtonContainer.style.display = "inline"
+        movementButton.style.display = "block"
     }
 }
 
@@ -231,17 +231,11 @@ function updateStats(){
     rotationZ.value = (entity.components.rotation.attrValue.z).toFixed(3);
     rotationY.value = (entity.components.rotation.attrValue.y).toFixed(3);
     rotationX.value = (entity.components.rotation.attrValue.x).toFixed(3);
+    color.value = entity.components.material.attrValue.color;
     flag = true;
-    if(selectedEntity.getAttribute("id").includes("text") || selectedEntity.getAttribute("id").includes("timer")){
-        color.value = entity.components.text.attrValue.color;
-        $('#color').minicolors("value",entity.components.text.attrValue.color);
-        console.log(entity)
-    } else {
-        color.value = entity.components.material.attrValue.color;
-        $('#color').minicolors("value",entity.components.material.attrValue.color);
-    }
+    $('#color').minicolors("value",entity.components.material.attrValue.color);
     flag = false;
-    if (entity.components.text || entity.components.material.attrValue.src == "" || entity.components.material.attrValue.src == null){
+    if (entity.components.material.attrValue.src == "" || entity.components.material.attrValue.src == null){
         texture.selectedIndex = 0;
         texture.options[0].selected = true;
     } else {
@@ -300,23 +294,14 @@ function updateStats(){
     } else if(selectedEntity.getAttribute("id").includes("bullseye")){
         numRingsIn.value = (selectedEntity.children.length-1);
         ringPitchIn.value = selectedEntity.children[0].components.geometry.attrValue.radiusOuter*2;
-    }  else if(selectedEntity.getAttribute("id").includes("text")){
-        width.value = entity.components.text.attrValue.width;
-        height.value = entity.components.text.attrValue.height;
-        textIn.value = entity.components.text.attrValue.value;
-    } else if(selectedEntity.getAttribute("id").includes("timer")){
-        width.value = entity.components.text.attrValue.width;
-        height.value = entity.components.text.attrValue.height;
     }
 
 }
 
 /* switches between add or edit mode or refreshes current mode display */
 function toggleDisplayEdit(swap){
-    
     /* check if swapping modes or refreshing display */
     if(swap){ /* if the button to swap was pressed */
-        stopAll()
         boolDisplayEdit = !boolDisplayEdit; /* change current mode */
     } 
     utility.checked = false;
@@ -334,7 +319,6 @@ function toggleDisplayEdit(swap){
         //scene_input.value = ""
         //toggleAddEdit(false);
     } else { /* if add */
-        
         if(!isNaN(parseInt(patternList.getAttribute('selectedIndex')))){
             if(coreLayout.style.gridTemplateColumns != "100% 0%"){
                 openSettings()
@@ -358,7 +342,6 @@ function toggleDisplayEdit(swap){
             swapContainer.style.textAlign = ""
             animationListButtonContainer.style.display = "none"
         }
-
     }
 }
 
@@ -366,7 +349,6 @@ function toggleDisplayEdit(swap){
 function toggleAddEdit(swap){
     /* check if swapping modes or refreshing display */
     if(swap){ /* if the button to swap was pressed */
-        stopAll()
         if(numAdded == 0){
             alert("You must add an entity before editing the scene");
             utility.checked = false;
@@ -385,7 +367,6 @@ function toggleAddEdit(swap){
     }
     /* check if current mode is add or edit */
     if(boolAddEdit){ /* if edit */
-        
         editContent.style.display = 'grid';
         addContent.style.display = 'none';
         background.style.display = "none";
@@ -467,18 +448,6 @@ function toggleAddEdit(swap){
             numRings.style.display = "flex";
             area2.style.display = "block";
             ringPitch.style.display = "flex";
-        } else if (selectedEntity.getAttribute("id").includes("text")){
-            area1.style.display = "block";
-            heightIn.style.display = "flex";
-            area2.style.display = "block";
-            widthIn.style.display = "flex";
-            area3.style.display = "block";
-            textIn.style.display = "flex";
-        }  else if (selectedEntity.getAttribute("id").includes("timer")){
-            area1.style.display = "block";
-            heightIn.style.display = "flex";
-            area2.style.display = "block";
-            widthIn.style.display = "flex";
         }
         updateAnimationList(entity)
         if(animationList.childElementCount == 0){
@@ -691,8 +660,8 @@ function hideMovement(){
         keyHeader.style.display = "none"
         speed.style.display = "none"
         acceleration.style.display = "none"
-        //keyBind.style.display = "none"
-        movementButtonContainer.style.display = "none"
+        keyBind.style.display = "none"
+        movementButton.style.display = "none"
         //universalHeader.style.display = "none";
         //uni.style.borderBottom = "0px solid #999";
         movement.style.gridTemplateRows = "100% 0% 0% 0% 0% 0% 0% 0%"
@@ -724,7 +693,7 @@ function hideMovement(){
         speed.style.display = "block"
         acceleration.style.display = "block"
         //key.style.display = "block"
-        movementButtonContainer.style.display = "inline"
+        movementButton.style.display = "block"
         //universalHeader.style.display = "block";
         //uni.style.borderBottom = "1px solid #999";
         movement.style.gridTemplateRows = "11% 13% 11% 13% 11% 13% 12% 12%"
