@@ -1,35 +1,35 @@
 /* Loads in prebuilt scenes and adds them to scenes json */
-import crosshair from './patterns/crosshair.JSON' with { type: "json" };
+import crosshair from './patterns/crosshair.JSON' assert { type: "json" };
 scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
 
-import FS_Texture from './patterns/FS_Texture.JSON' with { type: "json" };
+import FS_Texture from './patterns/FS_Texture.JSON' assert { type: "json" };
 scenes['default']['FS White'] = FS_Texture['scenes']['FS_Texture'];
 
-import red from './patterns/red.JSON' with { type: "json" };
+import red from './patterns/red.JSON' assert { type: "json" };
 scenes['default']['FS Red'] = red['scenes']['default'];
 
-import green from './patterns/green.JSON' with { type: "json" };
+import green from './patterns/green.JSON' assert { type: "json" };
 scenes['default']['FS Green'] = green['scenes']['default'];
 
-import blue from './patterns/blue.JSON' with { type: "json" };
+import blue from './patterns/blue.JSON' assert { type: "json" };
 scenes['default']['FS Blue'] = blue['scenes']['default'];
 
-import black from './patterns/black.JSON' with { type: "json" };
+import black from './patterns/black.JSON' assert { type: "json" };
 scenes['default']['FS Black'] = black['scenes']['default'];
 
-import Distortion_9x9 from './patterns/Distortion_9x9.JSON' with { type: "json" };
+import Distortion_9x9 from './patterns/Distortion_9x9.JSON' assert { type: "json" };
 scenes['default']['Distortion 9x9'] = Distortion_9x9['scenes']['Distortion_9x9'];
 
-import checkerboard_w from './patterns/checkerboard_w.JSON' with { type: "json" };
+import checkerboard_w from './patterns/checkerboard_w.JSON' assert { type: "json" };
 scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w'];
 
-import checkerboard_b from './patterns/checkerboard_b.JSON' with { type: "json" };
+import checkerboard_b from './patterns/checkerboard_b.JSON' assert { type: "json" };
 scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b'];
 
-import MTF_Center from './patterns/MTF_Center.JSON' with { type: "json" };
+import MTF_Center from './patterns/MTF_Center.JSON' assert { type: "json" };
 scenes['default']['MTF Center'] = MTF_Center['scenes']['MTF Center'];
 
-import MTF_3x3 from './patterns/MTF_3x3.JSON' with { type: "json" };
+import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
 scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
 
 
