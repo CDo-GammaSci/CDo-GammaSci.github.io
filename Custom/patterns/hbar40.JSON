@@ -30,7 +30,7 @@
                 "material": {
                     "shader": "flat",
                     "color": "#ffffff",
-                    "src": "#VB_21"
+                    "src": "#HB_40"
                 },
                 "rotation": {
                     "x": 0,
@@ -65,8 +65,8 @@
         "uploadedTextureFormats": {},
         "textureValues": [
             {
-                "val": "VB_21",
-                "text": "VBARS_LP_21"
+                "val": "HB_40",
+                "text": "HBARS_LP_40"
             }
         ]
     },
