@@ -1,0 +1,19 @@
+{
+    "scenes": {
+        "default": {
+            "plane0": {
+                "material": {
+                    "src": "#VB_1"
+                }
+            }
+        }
+    },
+    "textures": {
+        "textureValues": [
+            {
+                "val": "VB_1",
+                "text": "VBARS_LP_1"
+            }
+        ]
+    }
+}

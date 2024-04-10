@@ -1,0 +1,19 @@
+{
+    "scenes": {
+        "default": {
+            "plane0": {
+                "material": {
+                    "src": "#HB_4"
+                }
+            }
+        }
+    },
+    "textures": {
+        "textureValues": [
+            {
+                "val": "HB_4",
+                "text": "HBARS_LP_4"
+            }
+        ]
+    }
+}

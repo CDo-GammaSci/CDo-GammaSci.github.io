@@ -32,6 +32,18 @@ scenes['default']['MTF Center'] = MTF_Center['scenes']['MTF Center'];
 import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
 scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
 
+import vbar_1 from './patterns/vbar1.JSON' assert { type: "json" };
+scenes['default']['VBar 1'] = vbar_1['scenes']['default'];
+
+import vbar_2 from './patterns/vbar2.JSON' assert { type: "json" };
+scenes['default']['VBar 2'] = vbar_2['scenes']['default'];
+
+import vbar_3 from './patterns/vbar3.JSON' assert { type: "json" };
+scenes['default']['VBar 3'] = vbar_3['scenes']['default'];
+
+import vbar_4 from './patterns/vbar4.JSON' assert { type: "json" };
+scenes['default']['VBar 4'] = vbar_4['scenes']['default'];
+
 import vbar_5 from './patterns/vbar5.JSON' assert { type: "json" };
 scenes['default']['VBar 5'] = vbar_5['scenes']['default'];
 
@@ -139,6 +151,18 @@ scenes['default']['VBar 39'] = vbar_39['scenes']['default'];
 
 import vbar_40 from './patterns/vbar40.JSON' assert { type: "json" };
 scenes['default']['VBar 40'] = vbar_40['scenes']['default'];
+
+import hbar_1 from './patterns/hbar1.JSON' assert { type: "json" };
+scenes['default']['HBar 1'] = hbar_1['scenes']['default'];
+
+import hbar_2 from './patterns/hbar2.JSON' assert { type: "json" };
+scenes['default']['HBar 2'] = hbar_2['scenes']['default'];
+
+import hbar_3 from './patterns/hbar3.JSON' assert { type: "json" };
+scenes['default']['HBar 3'] = hbar_3['scenes']['default'];
+
+import hbar_4 from './patterns/hbar4.JSON' assert { type: "json" };
+scenes['default']['HBar 4'] = hbar_4['scenes']['default'];
 
 import hbar_5 from './patterns/hbar5.JSON' assert { type: "json" };
 scenes['default']['HBar 5'] = hbar_5['scenes']['default'];
