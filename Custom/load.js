@@ -32,6 +32,9 @@ scenes['default']['MTF Center'] = MTF_Center['scenes']['MTF Center'];
 import MTF_3x3 from './patterns/MTF_3x3.JSON' assert { type: "json" };
 scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
 
+import ConcatImg from './patterns/img_concat_101x101.JSON' assert { type: "json" };
+scenes['default']['Concat Image'] = ConcatImg['scenes']['default'];
+
 import vbar_1 from './patterns/vbar1.JSON' assert { type: "json" };
 scenes['default']['VBar 1'] = vbar_1['scenes']['default'];
 
