@@ -5,7 +5,9 @@
     
 */
 
-import data from '../Compatibility/controller_profiles.json' assert { type: "json" };
+/* import data from '../Compatibility/controller_profiles.json' assert { type: "json" }; */
+const response = await fetch('../Compatibility/controller_profiles.json');
+const data = await response.json();
 const windows = data[0]['windows']
 const oc_touch = data[0]['oc_touch']
 const oc_go = data[0]['oc_go']
