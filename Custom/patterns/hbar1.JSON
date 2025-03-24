@@ -2,6 +2,11 @@
     "scenes": {
         "default": {
             "plane0": {
+                "position": {
+					"x": 0,
+					"y": 0,
+					"z": -100
+				},
                 "material": {
                     "src": "#HB_1"
                 }
