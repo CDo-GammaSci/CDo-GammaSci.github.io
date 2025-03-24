@@ -1,5 +1,7 @@
 /* Loads in prebuilt scenes and adds them to scenes json */
-import crosshair from './patterns/crosshair.JSON' assert { type: "json" };
+/*import crosshair from './patterns/crosshair.JSON' assert { type: "json" }; */
+const response = await fetch('./patterns/crosshair.JSON');
+const crosshair = await response.json();
 scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
 
 import FS_Texture from './patterns/FS_Texture.JSON' assert { type: "json" };
