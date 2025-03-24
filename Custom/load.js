@@ -1,8 +1,5 @@
 /* Loads in prebuilt scenes and adds them to scenes json */
-/*import crosshair from './patterns/crosshair.JSON' assert { type: "json" }; */
-const response = await fetch('./patterns/crosshair.JSON');
-const crosshair = await response.json();
-scenes['default']['crosshair'] = crosshair['scenes']['crosshair']
+/* import crosshair from './patterns/crosshair.JSON' assert { type: "json" }; 
 
 import FS_Texture from './patterns/FS_Texture.JSON' assert { type: "json" };
 scenes['default']['FS White'] = FS_Texture['scenes']['FS_Texture'];
@@ -276,6 +273,86 @@ scenes['default']['HBar 39'] = hbar_39['scenes']['default'];
 
 import hbar_40 from './patterns/hbar40.JSON' assert { type: "json" };
 scenes['default']['HBar 40'] = hbar_40['scenes']['default'];
+*/
+
+// Ensure this code runs in an async context
+async function loadScenes() {
+  // Load crosshair
+  const responseCrosshair = await fetch('./patterns/crosshair.JSON');
+  const crosshair = await responseCrosshair.json();
+  scenes['default']['crosshair'] = crosshair['scenes']['crosshair'];
+
+  // Load FS_Texture
+  const responseFSTexture = await fetch('./patterns/FS_Texture.JSON');
+  const FS_Texture = await responseFSTexture.json();
+  scenes['default']['FS White'] = FS_Texture['scenes']['FS_Texture'];
+
+  // Load red
+  const responseRed = await fetch('./patterns/red.JSON');
+  const red = await responseRed.json();
+  scenes['default']['FS Red'] = red['scenes']['default'];
+
+  // Load green
+  const responseGreen = await fetch('./patterns/green.JSON');
+  const green = await responseGreen.json();
+  scenes['default']['FS Green'] = green['scenes']['default'];
+
+  // Load blue
+  const responseBlue = await fetch('./patterns/blue.JSON');
+  const blue = await responseBlue.json();
+  scenes['default']['FS Blue'] = blue['scenes']['default'];
+
+  // Load black
+  const responseBlack = await fetch('./patterns/black.JSON');
+  const black = await responseBlack.json();
+  scenes['default']['FS Black'] = black['scenes']['default'];
+
+  // Load Distortion_9x9
+  const responseDistortion_9x9 = await fetch('./patterns/Distortion_9x9.JSON');
+  const Distortion_9x9 = await responseDistortion_9x9.json();
+  scenes['default']['Distortion 9x9'] = Distortion_9x9['scenes']['Distortion_9x9'];
+
+  // Load checkerboard_w
+  const responseCheckerboard_w = await fetch('./patterns/checkerboard_w.JSON');
+  const checkerboard_w = await responseCheckerboard_w.json();
+  scenes['default']['checkerboard_w'] = checkerboard_w['scenes']['checkerboard_w'];
+
+  // Load checkerboard_b
+  const responseCheckerboard_b = await fetch('./patterns/checkerboard_b.JSON');
+  const checkerboard_b = await responseCheckerboard_b.json();
+  scenes['default']['checkerboard_b'] = checkerboard_b['scenes']['checkerboard_b'];
+
+  // Load MTF_Center
+  const responseMTF_Center = await fetch('./patterns/MTF_Center.JSON');
+  const MTF_Center = await responseMTF_Center.json();
+  scenes['default']['MTF Center'] = MTF_Center['scenes']['MTF Center'];
+
+  // Load MTF_3x3
+  const responseMTF_3x3 = await fetch('./patterns/MTF_3x3.JSON');
+  const MTF_3x3 = await responseMTF_3x3.json();
+  scenes['default']['MTF 3x3'] = MTF_3x3['scenes']['MTF 3x3'];
+
+  // Load ConcatImg
+  const responseConcatImg = await fetch('./patterns/img_concat_101x101.JSON');
+  const ConcatImg = await responseConcatImg.json();
+  scenes['default']['Concat Image'] = ConcatImg['scenes']['default'];
+
+  // Load vbar_1 to vbar_40
+  for (let i = 1; i <= 40; i++) {
+    const responseVbar = await fetch(`./patterns/vbar${i}.JSON`);
+    const vbar = await responseVbar.json();
+    scenes['default'][`VBar ${i}`] = vbar['scenes']['default'];
+  }
+
+  // Load hbar_1 to hbar_40
+  for (let i = 1; i <= 40; i++) {
+    const responseHbar = await fetch(`./patterns/hbar${i}.JSON`);
+    const hbar = await responseHbar.json();
+    scenes['default'][`HBar ${i}`] = hbar['scenes']['default'];
+  }
+}
+
+loadScenes();
 
 
 console.log('Scenes')
