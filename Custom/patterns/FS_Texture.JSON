@@ -19,8 +19,8 @@
 				},
 				"geometry": {
 					"primitive": "plane",
-					"width": 119.271,
-					"height": 125
+					"width": 250,
+					"height": 250
 				},
 				"position": {
 					"x": 0,
