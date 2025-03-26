@@ -12,15 +12,10 @@
 					"x": 0,
 					"z": -100
 				},
-				"widthReal": 116.84782608695653,
-				"fill": {
-					"val": 116.84782608695653,
-					"isFull": true
-				},
 				"geometry": {
 					"primitive": "plane",
-					"width": 250,
-					"height": 250
+                    "width": 132.73913,
+                    "height": 142
 				},
 				"position": {
 					"x": 0,
